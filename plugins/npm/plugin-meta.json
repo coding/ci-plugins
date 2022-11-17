@@ -1,0 +1,13 @@
+{
+  "name": "npm",
+  "description": "发布 NPM 包到仓库，支持官方仓库和私有仓库",
+  "mark": "社区",
+  "images": "https://hub.docker.com/r/plugins/npm/tags",
+  "source": "https://github.com/drone-plugins/drone-npm",
+  "bugs": "https://github.com/drone-plugins/drone-npm/issues",
+  "tags": [
+    "publish",
+    "npm"
+  ],
+  "logo": "logo.svg"
+}
