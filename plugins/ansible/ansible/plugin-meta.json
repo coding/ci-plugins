@@ -1,0 +1,10 @@
+{
+  "name": "ansible",
+  "description": "Ansible can help you demonstrate value, connect teams, and deliver efficiencies for your organization. ",
+  "tags": ["publish", "rsync"],
+  "mark": "社区",
+  "images": "https://hub.docker.com/r/plugins/ansible/tags",
+  "source": "https://github.com/drone-plugins/drone-ansible",
+  "bugs": "https://github.com/drone-plugins/drone-ansible/issues",
+  "logo": "logo.svg"
+}
