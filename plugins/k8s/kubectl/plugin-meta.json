@@ -1,0 +1,10 @@
+{
+  "name": "kubectl",
+  "description": "Kubectl 是 Kubernetes 命令行接口。通过 Kubectl 命令可以方便的管理 Kubernetes 集群。Kubectl 同样可以管理腾讯云 TKE 集群。",
+  "mark": "社区",
+  "tags": [ "腾讯云", "tke","kubectl","k8s" ],
+  "images": "https://hub.docker.com/r/bitnami/kubectl",
+  "source": "https://github.com/kubernetes/kubectl",
+  "bugs": "https://github.com/kubernetes/kubectl/issues",
+  "logo": "logo.png"
+}
