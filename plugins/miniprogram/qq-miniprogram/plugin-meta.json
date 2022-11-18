@@ -1,0 +1,8 @@
+{
+  "name": "QQ小程序",
+  "description": "QQ小程序自动构建、支持上传并设置为体验版。",
+  "mark": "官方",
+  "tags": [ "小程序", "QQ"],
+  "link": "https://q.qq.com/wiki/tools/ci/",
+  "logo": "logo.png"
+}
