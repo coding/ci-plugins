@@ -1,0 +1,10 @@
+{
+    "name": "tencentcloud-cli",
+    "description": "通过腾讯云命令行工具，您可以快速轻松的调用腾讯云 API来管理您的腾讯云资源",
+    "tags": ["腾讯云"],
+    "mark": "官方",
+    "images": "https://hub.docker.com/r/tencentcom/tencentcloud-cli/tags",
+    "source": "https://github.com/TencentCloud/tencentcloud-cli",
+    "bugs": "https://github.com/TencentCloud/tencentcloud-cli/issues",
+    "logo": "logo.png"
+  }
