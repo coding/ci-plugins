@@ -1,0 +1,9 @@
+{
+  "name": "rsync",
+  "description": "rsync 文件同步工具",
+  "tags": ["rsync", "publish"],
+  "mark": "社区",
+  "images": "https://hub.docker.com/r/drillster/drone-rsync/tags",
+  "source": "https://github.com/drillster/drone-rsync",
+  "bugs": "https://github.com/Drillster/drone-rsync/issues"
+}
