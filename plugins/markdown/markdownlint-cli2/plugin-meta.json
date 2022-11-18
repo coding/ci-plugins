@@ -1,0 +1,10 @@
+{
+    "name": "markdownlint-cli2",
+    "description": "linting Markdown files with the markdownlint.",
+    "tags": ["markdown", "lint"],
+    "mark": "社区",
+    "images": "https://hub.docker.com/r/davidanson/markdownlint-cli2/tags",
+    "source": "https://github.com/DavidAnson/markdownlint-cli2",
+    "bugs": "https://github.com/DavidAnson/markdownlint-cli2/issues",
+    "logo": "logo.png"
+  }
