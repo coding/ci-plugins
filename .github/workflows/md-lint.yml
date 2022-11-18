@@ -13,4 +13,16 @@ jobs:
       uses: actions/checkout@v3
     - name: lint 
       uses: docker://tencentcom/markdown-lint:latest
+    - name: send message 
+      uses: docker://tencentcom/wecom-message:latest
+      env:
+        PLUGIN_ROBOT: ${{ secrets.WEWORK_BOT }}
+        PLUGIN_CONTENT: |
+          [https://github.com/${{ github.repository }}/pulls](https://github.com/${{ github.repository }}/pulls)
+
+          
+          来走查代码啦
+          
+          from <@${{ github.actor }}>
+
 

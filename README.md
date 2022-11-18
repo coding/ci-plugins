@@ -45,4 +45,8 @@ fork 本项目，在 `plugins` 目录下创建插件子目录，比如 `plugins/
 
 ### Step 2
 
+添加 logo README.md 等必要文件到插件 Meta 信息所在目录。
+
+### Step 3
+
 提交修改，发起 PR 等待自动检查工具通过和人工审核。
