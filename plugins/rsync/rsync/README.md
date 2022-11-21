@@ -5,7 +5,7 @@
 ## 在 Docker 上使用
 
 ```shell
-docker build --rm -t -v $(pwd):$(pwd) -w $(pwd) drillster/drone-rsync .
+docker run --rm -t -v $(pwd):$(pwd) -w $(pwd) drillster/drone-rsync .
 ```
 
 ## 在 Coding-CI 上使用
