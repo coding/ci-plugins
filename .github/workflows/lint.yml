@@ -1,4 +1,4 @@
-name: md-lint
+name: lint
 
 on:
   pull_request:
@@ -6,16 +6,16 @@ on:
     - main
 
 jobs:
-  md-lint:
+  lint:
     runs-on: ubuntu-latest
     steps:
     - name: checkout 
       uses: actions/checkout@v3
-    - name: lint 
+    - name: plugin-lint 
       uses: docker://codingci/plugin-lint:latest      
-    - name: lint 
+    - name: markdown-lint 
       uses: docker://tencentcom/markdown-lint:latest
-    - name: send message 
+    - name: notify
       uses: docker://tencentcom/wecom-message:latest
       env:
         PLUGIN_ROBOT: ${{ secrets.WEWORK_BOT }}
@@ -23,8 +23,6 @@ jobs:
           [https://github.com/${{ github.repository }}/pulls](https://github.com/${{ github.repository }}/pulls)
 
           
-          来走查代码啦
-          
-          from <@${{ github.actor }}>
+          走查代码啦~ for <@${{ github.actor }}>
 
 
