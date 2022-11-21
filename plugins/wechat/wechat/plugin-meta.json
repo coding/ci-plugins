@@ -1,0 +1,10 @@
+{
+  "name": "wechat",
+  "description": "基于微信企业号封装的 drone 微信消息通知插件。",
+  "mark": "社区",
+  "tags": [ "微信", "wechat","sending wechat notifications" ],
+  "images": "https://hub.docker.com/r/lizheming/drone-wechat",
+  "source": "https://github.com/lizheming/drone-wechat",
+  "bugs": "https://github.com/lizheming/drone-wechat/issues",
+  "logo": "logo.png"
+}
