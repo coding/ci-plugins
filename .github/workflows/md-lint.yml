@@ -12,6 +12,8 @@ jobs:
     - name: checkout 
       uses: actions/checkout@v3
     - name: lint 
+      uses: docker://codingci/plugin-lint:latest      
+    - name: lint 
       uses: docker://tencentcom/markdown-lint:latest
     - name: send message 
       uses: docker://tencentcom/wecom-message:latest
