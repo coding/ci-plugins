@@ -52,7 +52,6 @@ master:
 - `PLUGIN_TITLE`: 消息卡片标题
 - `PLUGIN_MESSAGE`: 消息卡片正文，支持 Markdown。
 
-
 ## 更多用法
 
 更多用法参考：[lizheming/drone-wechat](https://github.com/lizheming/drone-wechat)
