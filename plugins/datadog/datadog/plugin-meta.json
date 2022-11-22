@@ -1,0 +1,10 @@
+{
+  "name": "datadog",
+  "description": "发送events和metrics到Datadog",
+  "mark": "社区",
+  "tags": [ "MONITORING"],
+  "images": "https://hub.docker.com/r/masci/drone-datadog",
+  "source": "https://github.com/masci/drone-datadog",
+  "bugs": "https://github.com/masci/drone-datadog/issues",
+  "logo": "logo.svg"
+}
