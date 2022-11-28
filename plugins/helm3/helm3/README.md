@@ -112,8 +112,8 @@ cleanup_failed_upgrade
 skip_tls_verify
 : Do not check for a valid certificate when connecting to the kubernetes api.
 
-See [docs/parameter_reference.md](https://github.com/pelotech/drone-helm3/blob/master/docs/parameter_reference.md) for a more detailed explanation of these parameters.
+See [docs/parameter_reference.md](https://github.compelotech/drone-helm3/blob/master/docs/parameter_reference.md) for a more detailed explanation of these parameters.
 
 ## 更多用法
 
-更多用法参考：[/pelotech/drone-helm3](https://github.com//pelotech/drone-helm3)
+更多用法参考：[pelotech/drone-helm3](https://github.com/pelotech/drone-helm3)
