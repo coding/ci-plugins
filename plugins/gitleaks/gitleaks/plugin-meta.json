@@ -1,0 +1,10 @@
+{
+  "name": "gitleaks",
+  "description": "检测git库中敏感信息的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/drone/drone-gitleaks",
+  "source": "https://github.com/drone/drone-gitleaks",
+  "bugs": "https://github.com/drone/drone-gitleaks/issues",
+  "logo": "logo.png"
+}
