@@ -6,5 +6,5 @@
   "images": "https://hub.docker.com/r/robertstettner/drone-codecov",
   "source": "https://github.com/robertstettner/drone-codecov",
   "bugs": "https://github.com/robertstettner/drone-codecov/issues",
-  "logo": "logo.png"
+  "logo": "logo.svg"
 }

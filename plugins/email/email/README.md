@@ -1,4 +1,4 @@
-# download
+# email
 
 通过email发送构建消息的插件
 
