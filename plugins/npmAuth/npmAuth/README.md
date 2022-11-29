@@ -27,8 +27,6 @@ npm_password
 npm_email
 : The NPM email.
 
-# Parameter Reference
-
 username
 : The NPM username. Required.
 
