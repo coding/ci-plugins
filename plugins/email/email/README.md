@@ -55,7 +55,7 @@ body
 attachment
 : An optional file to attach to the sent mail(s). This can be an absolute path or a path relative to the working directory
 
-# Template Reference
+### Template Reference
 
 repo.fullName
 : repository full name
@@ -168,7 +168,7 @@ pullRequest
 deployTo
 : deployment environment
 
-# Template Functions
+### Template Functions
 
 uppercasefirst
 : converts the first character of a string to uppercase

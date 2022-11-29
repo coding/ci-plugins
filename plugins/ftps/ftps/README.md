@@ -17,7 +17,7 @@ master:
 
 ## 参数含义
 
-# Secret Reference
+### Secret Reference
 
 FTP_PASSWORD
 : password used to login to the FTP server with the specified user
@@ -25,7 +25,7 @@ FTP_PASSWORD
 FTP_USERNAME
 : Username used to login to the FTP server
 
-# Parameter Reference
+### Parameter Reference
 
 hostname
 : FTP host including the port
