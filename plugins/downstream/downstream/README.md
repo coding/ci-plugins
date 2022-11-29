@@ -28,7 +28,7 @@ server
 : drone server url
 
 repositories
-: trigger builds for the repository list, you can mention branch using @<branch>
+: trigger builds for the repository list, you can mention branch using branch
 
 fork
 : trigger new build numbers if true, else rebuild
