@@ -1,0 +1,10 @@
+{
+  "name": "Snyk",
+  "description": "使用snyk扫描容器镜像漏洞",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/drone-plugins/drone-snyk",
+  "source": "https://github.com/drone-plugins/drone-snyk",
+  "bugs": "https://github.com/drone-plugins/drone-snyk/issues",
+  "logo": "logo.svg"
+}

@@ -1,0 +1,48 @@
+# Snyk
+
+使用snyk扫描容器镜像漏洞
+
+## 在 Coding-CI 上使用
+
+```yml
+master:
+  push:
+  - stages:
+    - name: scan
+      image: drone-plugins/drone-snyk
+      pull: if-not-exists
+      privileged: true
+      settings:
+          dockerfile: link to dockerfile in repo
+          image: image name
+          snyk:
+            from_secret: snyk
+          fail_on_issues: false
+```
+
+## 参数含义
+
+```text
+REGISTRY // docker registry address
+USERNAME // Docker registry username
+PASSWORD // Docker registry password
+EMAIL    // Docker registry email
+CONFIG   // Docker Auth Config
+REGISTRY            // Docker registry
+MIRROR              // Docker registry mirror
+INSECURE            // Docker daemon enable insecure registries
+STORAGE_DRIVER      // Docker daemon storage driver
+STORAGE_PATH        // Docker daemon storage path
+DAEMON_OFF          // Docker daemon is disabled (already running)
+DEBUG               // Docker daemon started in debug mode
+BIP                 // Docker daemon network bridge IP address
+CUSTOM_DNS          // Docker daemon dns server
+CUSTOM_DNS_SEARCH   // Docker daemon dns search domain
+MTU                 // Docker daemon mtu setting
+IPV6                // Docker daemon IPv6 networking
+EXPERIMENTAL        // Docker daemon enable experimental mode
+```
+
+## 更多用法
+
+更多用法参考：[drone-plugins/drone-snyk](https://github.com/drone-plugins/drone-snyk)
