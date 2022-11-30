@@ -1,0 +1,10 @@
+{
+  "name": "Volume Cache",
+  "description": "将文件或者文件夹缓存到本地的盘",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/drillster/drone-volume-cache",
+  "source": "https://github.com/drillster/drone-volume-cache",
+  "bugs": "https://github.com/drillster/drone-volume-cache/issues",
+  "logo": "logo.svg"
+}
