@@ -1,5 +1,5 @@
 {
-  "name": "codecov",
+  "name": "Codecov",
   "description": "推送测试报告到Codecov",
   "mark": "社区",
   "tags": [ "TEST","PUBLISH"],

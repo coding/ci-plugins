@@ -1,5 +1,5 @@
 {
-  "name": "docker",
+  "name": "Docker",
   "description": "在docker里面用docker构建和部署docker镜像",
   "mark": "社区",
   "tags": [ "DOCKER"],

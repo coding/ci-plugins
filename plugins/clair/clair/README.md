@@ -1,4 +1,4 @@
-# clair
+# Clair
 
 通过Clair扫描docker镜像插件
 

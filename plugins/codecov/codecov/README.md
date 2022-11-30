@@ -1,4 +1,4 @@
-# codecov
+# Codecov
 
 推送测试报告到Codecov
 

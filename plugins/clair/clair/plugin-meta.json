@@ -1,5 +1,5 @@
 {
-  "name": "clair",
+  "name": "Clair",
   "description": "通过Clair扫描docker镜像",
   "mark": "社区",
   "tags": [ "DOCKER"],

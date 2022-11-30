@@ -1,5 +1,5 @@
 {
-  "name": "artifactory",
+  "name": "Artifactory",
   "description": "发布文件或者制品到制品库插件",
   "mark": "社区",
   "tags": [ "PUBLISH"],

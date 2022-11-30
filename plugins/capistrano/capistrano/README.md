@@ -1,4 +1,4 @@
-# capistrano
+# Capistrano
 
 通过Capistrano部署应用插件
 

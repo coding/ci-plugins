@@ -1,5 +1,5 @@
 {
-  "name": "capistrano",
+  "name": "Capistrano",
   "description": "通过Capistrano部署应用",
   "mark": "社区",
   "tags": [ "DEPLOY","SSH","RUBY"],

@@ -1,5 +1,5 @@
 {
-  "name": "datadog",
+  "name": "Datadog",
   "description": "发送events和metrics到Datadog",
   "mark": "社区",
   "tags": [ "MONITORING"],

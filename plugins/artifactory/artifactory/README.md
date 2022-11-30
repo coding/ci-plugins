@@ -1,4 +1,4 @@
-# artifactory
+# Artifactory
 
 发布文件或者制品到制品库插件
 
