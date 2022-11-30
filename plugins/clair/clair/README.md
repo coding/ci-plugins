@@ -19,7 +19,7 @@ master:
 
 ## 参数含义
 
-# Secret Reference
+### Secret Reference
 
   DOCKER_USERNAME
   : paired with `username` - The username to authenticate to the docker registry with
@@ -33,7 +33,7 @@ master:
   CLAIR_CA_CERT
   : paired with `ca_cert` - The CA Cert to verify https with
 
-# Parameter Reference
+### Parameter Reference
 
   url
   : Clair server URL
