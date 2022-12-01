@@ -6,5 +6,5 @@
   "images": "https://hub.docker.com/r/drone-plugins/drone-hugo",
   "source": "https://github.com/drone-plugins/drone-hugo",
   "bugs": "https://github.com/drone-plugins/drone-hugo/issues",
-  "logo": "logo.svg"
+  "logo": "logo.png"
 }
