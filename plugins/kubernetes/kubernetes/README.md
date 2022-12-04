@@ -11,11 +11,11 @@ master:
     - name: Deploy app
       image: danielgormly/drone-plugin-kube:0.0.1
       settings:
-        template: path/to/deployment.yaml # relative to repo root
-        ca: LS0tLS1... # BASE64 encoded string of the K8s CA cert
-        server: https://10.0.0.20:6443 # K8s master node address
+        template: path/to/deployment.yaml
+        ca: LS0tLS1... 
+        server: https://10.0.0.20:6443 
         token:
-          from_secret: kubernetes_token # Service account token to a service account that can manage deployments
+          from_secret: kubernetes_token
 ```
 
 ## 参数含义
@@ -33,10 +33,10 @@ template
 : Path to Kubernetes yaml based definition file (Configmap or Deployment)
 
 configmap_file
-: path to file containing data to inject in configmap (They configmap key that contains the data will be the filename)
+: path to file containing data to inject in configmap.
 
 `*`
-: Other parameters will be made available for interpolation within yaml templates (upper-case will be converted to lower-case)
+: Other parameters will be made available for interpolation.
 
 ## 更多用法
 

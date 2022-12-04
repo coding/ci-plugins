@@ -16,7 +16,7 @@ master:
 ## 参数含义
 
 context_dir
-: The context directory within the source repository where `pom.xml` is found to execute the maven goals. Defaults to Drone workspace root.
+: The context directory to execute the maven goals. 
 
 goals
 : An array of maven goals to run.Defaults: `-DskipTests clean install`.

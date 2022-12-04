@@ -26,9 +26,9 @@ api_key
 : The Datadog API key that'll be used to send metrics and events.
 
 dry_run
-: When set to `true`, the plugin only computes metrics and events without sending anything to the
-Datadog intake. When the plugin runs in dry mode, it doesn't require an `api_key` to be set,
-useful for testing.
+: When set to `true`, the plugin only computes metrics and events without
+ sending anything to the Datadog intake. When the plugin runs in dry mode,
+it doesn't require an `api_key` to be set,useful for testing.
 
 metrics
 : A list of metrics to be sent to Datadog. A metric must have a `name` and a `value`;

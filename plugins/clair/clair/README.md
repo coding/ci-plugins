@@ -10,7 +10,12 @@ master:
   - stages:
     - name: clair
       image: jmccann/drone-clair:1
-      settings:
+      env:
+        DOCKER_USERNAME: xxxxx
+        DOCKER_PASSWORD: xxxxx
+        CLAIR_URL: xxxxx
+        CLAIR_CA_CERT: xxxxx
+      settings: xxxxx
         url: http://clair.company.com
         username: johndoe
         password: mysecret
@@ -19,19 +24,19 @@ master:
 
 ## 参数含义
 
-### Secret Reference
+### Env Reference
 
   DOCKER_USERNAME
-  : paired with `username` - The username to authenticate to the docker registry with
+  : 通过环境变量传递`username`
 
   DOCKER_PASSWORD
-  : paired with `password` - The password to authenticate to the docker registry with
+  : 通过环境变量传递 `password`
 
   CLAIR_URL
-  : paired with `url` - Clair server URL
+  : 通过环境变量传递 `url`
 
   CLAIR_CA_CERT
-  : paired with `ca_cert` - The CA Cert to verify https with
+  : 通过环境变量传递 `ca_cert`
 
 ### Parameter Reference
 

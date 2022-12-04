@@ -29,7 +29,7 @@ master:
 * `group_id` - Project group id, default to value from Pom file
 * `artifact_id` - Project artifact id, default to value from Pom file
 * `version` - Artifact version, default to value from Pom file
-* `repo_key` - Target repository key, default to 'libs-snapshot-local' if version contains 'snapshot', 'libs-release-local' otherwise
+* `repo_key` - Target repository key
 * `files` - List of files to deploy
 * `force_upload` - Force upload if a file already exists
 

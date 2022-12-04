@@ -24,15 +24,15 @@ master:
 ## 参数含义
 
 mode
-: Helm command to run; valid options are `upgrade`, `lint`, and `uninstall`. If not provided, can be inferred from the Drone event.
-: This setting was called `helm_command` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
+: Helm command to run; valid options are `upgrade`, `lint`, and `uninstall`.
+: This setting was called `helm_command` prior to version 0.11.0. 
 
 update_dependencies
 : Run `helm dependency update` before running the main helm command.
 
 add_repos
 : Run `helm repo add` before running the main helm command.
-: This setting was called `helm_repos` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
+: This setting was called `helm_repos` prior to version 0.11.0.
 
 repo_certificate
 : Base64 encoded TLS certificate for a chart repository.
@@ -44,7 +44,7 @@ namespace
 : Kubernetes namespace for the un/installation.
 
 debug
-: Produce debug output from the plugin and helm itself. Note that this option may expose secrets in the log output.
+: Produce debug output from the plugin and helm itself. 
 
 chart
 : Helm chart to install or lint.
@@ -63,19 +63,18 @@ values_files
 
 kube_api_server
 : Kubernetes api server.
-: This setting was called `api_server` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
+: This setting was called `api_server` prior to version 0.11.0.
 
 kube_token
 : Token for connecting to the kubernetes api.
-: This setting was called `kubernetes_token` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
-
+: This setting was called `kubernetes_token` prior to version 0.11.0.
 kube_service_account
 : Account name for connecting to the kubernetes api.
-: This setting was called `service_account` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
+: This setting was called `service_account` prior to version 0.11.0.
 
 kube_certificate
 : Base64-encoded TLS certificate, for clusters using a self-signed CA certificate
-: This setting was called `kubernetes_certificate` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
+: This setting was called `kubernetes_certificate` prior to version 0.11.0.
 
 chart_version
 : Specific chart version to install.
@@ -85,14 +84,14 @@ dry_run
 
 wait_for_upgrade
 : Wait until kubernetes resources are in a ready state before marking the installation successful.
-: This setting was called `wait` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
+: This setting was called `wait` prior to version 0.11.0.
 
 timeout
 : Timeout for any individual kubernetes operation, formatted as a Golang duration (e.g. "3m20s").
 
 force_upgrade
 : Pass `--force` to `helm upgrade`.
-: This setting was called `force` prior to version 0.11.0. The older name is still supported, but upgrading is recommended.
+: This setting was called `force` prior to version 0.11.0.
 
 reuse_values
 : Reuse the values from a previous release.

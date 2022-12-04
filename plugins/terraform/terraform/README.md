@@ -38,11 +38,10 @@ Each value is passed as a `-var <key>=<value>` option.
 
 secrets
 : a map of variables to pass to the Terraform `plan` and `apply` commands.
-Each value is passed as a `-var <key>=<ENVVAR>` option.  The `ENVVAR` is read as the key/pair value.
+Each value is passed as a `-var <key>=<ENVVAR>` option.
 
 ca_cert
-: ca cert to add to your environment to allow terraform to use internal/private resources
-
+: ca cert to add to your environment.
 sensitive
 : (default: `false`) - Whether or not to suppress terraform commands to stdout.
 
@@ -50,7 +49,7 @@ role_arn_to_assume
 : A role to assume before running the terraform commands.
 
 root_dir
-: The root directory where the terraform files live. When unset, the top level directory will be assumed.
+: The root directory where the terraform files live.
 
 parallelism
 : The number of concurrent operations as Terraform walks its graph.

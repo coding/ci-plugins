@@ -15,7 +15,7 @@ master:
         corp_secret: secret
         agent_id: 1234567
         title: ${DRONE_REPO_NAME}
-        description: "Build Number: ${DRONE_BUILD_NUMBER} failed. ${DRONE_COMMIT_AUTHOR} please fix. Check the results here: ${DRONE_BUILD_LINK} "
+        description: "Build Number: ${DRONE_BUILD_NUMBER} failed."
         msg_url: ${DRONE_BUILD_LINK}
         btn_txt: btn
 ```

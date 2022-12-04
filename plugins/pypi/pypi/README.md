@@ -24,16 +24,16 @@ password
 : Password for the pypi publish.
 
 repository
-: The URL of the repository to be published to. (Optional, will default to <https://upload.pypi.org/legacy/>)
+: The URL of the repository to be published to.
 
 distributions
-: List of distribution types to publish. (Optional, will default to only sdist)
+: List of distribution types to publish.
 
 setupfile
-: The relative path from the workspace root to the setup.py file to be used. (Optional, will default to setup.py)
+: The relative path from the workspace root to the setup.py file to be used.
 
 skip_build
-: Skip the build and only upload pre-build files from `dist/*` (Optional, will default to False)
+: Skip the build and only upload pre-build files from `dist/*` 
 
 ## 更多用法
 

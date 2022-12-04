@@ -40,10 +40,12 @@ timeout
 : how long to wait on any currently running builds defaults to 60 seconds
 
 params
-: supports params in KEY=value format as well as loading of params from godotenv files.
+: supports params in KEY=value format as well as 
+loading of params from godotenv files.
 
 deploy
-: Trigger a deployment (promote build), value is the environment/target for the new build
+: Trigger a deployment (promote build), 
+value is the environment/target for the new build
 
 last_successful
 : Trigger the last successful build for the branch specified in repositories

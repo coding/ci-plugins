@@ -40,16 +40,16 @@ kubernetes_ca_crt
 : Certificate from ServiceAccount for authentication to the API server.
 
 kubernetes_skip_tls
-: If true, the server's certificate will not be checked for validity. This will make your HTTPS connections insecure.
+: If true, the server's certificate will not be checked for validity.
 
 init_templates
-: Path to Kubernetes Resource yaml based definition file (e.g. ConfigMap, Deployment or others), used to initialize some resources.
+: Path to Kubernetes Resource yaml based definition file.
 
 templates
-: Path to Kubernetes Resource yaml based definition file (e.g. ConfigMap, Deployment or others).
+: Path to Kubernetes Resource yaml based definition file.
 
 config_files
-: Config file paths for automatic creation/update of ConfigMap.The syntax is expressed as `namespace:name:file_path:file_name` or `namespace:name:file_path`, when file_name is not specified, it will default to the file name of file_path.
+: Config file paths for automatic creation/update of ConfigMap.
 
 namespace
 : Default namespace to use when namespace is not set.
@@ -58,7 +58,7 @@ debug
 : Used to enable debug level logging.
 
 `*`
-: Other parameters will be made available for interpolation within yaml templates (upper-case will be converted to lower-case)
+: Other parameters will be made available for interpolation.
 
 ## 更多用法
 

@@ -41,19 +41,22 @@ recipients
 : List of recipients to send this mail to (besides the commit author)
 
 recipients_file
-: Filename to load additional recipients from (textfile with one email per line) (besides the commit author)
+: Filename to load additional recipients from 
 
 recipients_only
-: Do not send mails to the commit author, but only to recipients, defaults to `false`
+: Do not send mails to the commit author, but only to recipients,
+ defaults to `false`
 
 subject
-: The subject line template ([handlebars](http://handlebarsjs.com/expressions.html) template)
+: The subject line template 
 
 body
-: The email body template ([handlebars](http://handlebarsjs.com/expressions.html) template). This can be an inline template, or a URL (`file:///` allowed)
+: The email body template . 
+This can be an inline template, or a URL (`file:///` allowed)
 
 attachment
-: An optional file to attach to the sent mail(s). This can be an absolute path or a path relative to the working directory
+: An optional file to attach to the sent mail(s). 
+This can be an absolute path or a path relative to the working directory
 
 ### Template Reference
 
@@ -177,10 +180,12 @@ uppercase
 : converts a string to uppercase
 
 lowercase
-: converts a string to lowercase. Example `{{lowercase commit.author.name}}`
+: converts a string to lowercase. 
+Example `{{lowercase commit.author.name}}`
 
 datetime
-: converts a unix timestamp to a date time string, using a format and a timezone. Example `{{datetime build.created "Mon Jan 2 15:04:05 MST 2006" "Local"}}`
+: converts a unix timestamp to a date time string.
+Example `{{datetime build.created "Mon Jan 2 15:04:05 MST 2006" "Local"}}`
 
 success
 : conditional which returns true if the build is successful
@@ -189,7 +194,8 @@ failure
 : conditional which returns true if the build has failed
 
 truncate
-: returns a truncated string to n characters. Example `{{truncate commit.SHA 8}}`
+: returns a truncated string to n characters. 
+Example `{{truncate commit.SHA 8}}`
 
 urlencode
 : returns a url encoded string

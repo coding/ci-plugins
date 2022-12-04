@@ -1,6 +1,6 @@
 # ftps
 
-通过email发送构建消息的插件
+通过ftps上传制品的插件
 
 ## 在 Coding-CI 上使用
 
@@ -10,6 +10,9 @@ master:
   - stages:
     - name: deploy
       image: cschlosser/drone-ftps
+      env: 
+        FTP_PASSWORD: xxx
+        FTP_USERNAME: xxx
       settings:
         hostname: example.com:21
         secrets: [ ftp_username, ftp_password ]
@@ -17,7 +20,7 @@ master:
 
 ## 参数含义
 
-### Secret Reference
+### Env Reference
 
 FTP_PASSWORD
 : password used to login to the FTP server with the specified user
@@ -34,10 +37,12 @@ clean_dir
 : if set to true destination directory would be cleaned before file transfer.
 
 chmod
-: if set to true ```chmod``` would be executed after file transferred, otherwise no ```chmod``` (default true)
+: if set to true ```chmod``` would be executed after file transferred, 
+otherwise no ```chmod``` (default true)
 
 verify
-: if set to true the SSL certificate validation is enforced, otherwise no validation (default true)
+: if set to true the SSL certificate validation is enforced,
+ otherwise no validation (default true)
 
 secure
 : if set to true FTPS is enforced, otherwise plain FTP is used (default true)

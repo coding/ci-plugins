@@ -21,7 +21,7 @@ actions
 : a list of actions to have packer perform
 
 vars
-: a map of variables to pass to the Packer `build` commands. Each value is passed as a `<key>=<value>` option
+: a map of variables to pass to the Packer `build` commands.
 
 var_files
 : a list of var files to use. Each value is passed as -var-file= `value`
@@ -33,7 +33,7 @@ only
 : validate or build only the specified builds
 
 template
-: A json file will execute multiple builds in parallel as defined in the template
+: A json file will execute multiple builds in parallel.
 
 syntax_only
 : Only check syntax. Do not verify config of the template, defaults to `false`
@@ -48,7 +48,7 @@ parallel
 : Disable parallelization (on by default), defaults to `false`
 
 force
-: Force a build to continue if artifacts exist, deletes existing artifacts, defaults to `false`
+: Force a build to continue if artifacts exist, deletes existing artifacts.
 
 readable
 : Machine-readable output, defaults to `false`

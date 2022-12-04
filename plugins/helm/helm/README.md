@@ -25,28 +25,29 @@ master:
 ### Parameter Reference
 
 namespace
-: namespace where you want to install your chart. If you don't specify this parameter, `default` namespace will be used.
+: namespace where you want to install your chart.
 
 chart
 : chart that you want to install
 
 release
-: name used in the helm command to specify the release. If you don't specify the release, helm will generate a random name and you will not be able to upgrade that release.
+: name used in the helm command to specify the release.
 
 values
 : values injected in helm command. These are the values you want to overwrite.
 
 prefix
-: defines the prefix of all the secrets used in the plugin. If prefix is `DEV` and your secret should be named `DEV_PASSWORD` and the values would be `${PASSWORD}`. If `prefix` is `PROD` the secret should be defined as `PROD_PASSWORD`. This allows you to define different secrets for different
+: defines the prefix of all the secrets used in the plugin.
 
 tiller_ns
-: namespace where `tiller` will be installed. By default, `tiller` is installed in `kube-system`
+: namespace where `tiller` will be installed.
 
 debug
-: very verbose output. it will display all the ENVVARS passed to the container. Very handy when debugging secrets.
+: very verbose output.
 
 skip_tls_verify
-: if you create your own SSL certificates, youi will need this flag to be true to avoid having connectivity issues.
+: if you create your own SSL certificates,
+ youi will need this flag to be true to avoid having connectivity issues.
 
 api_server
 : kubernetes api server
