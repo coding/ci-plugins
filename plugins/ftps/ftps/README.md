@@ -26,7 +26,7 @@ FTP_PASSWORD
 : password used to login to the FTP server with the specified user
 
 FTP_USERNAME
-: Username used to login to the FTP server
+: Username used to login to the FTP server.
 
 ### Parameter Reference
 
