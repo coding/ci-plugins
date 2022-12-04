@@ -25,7 +25,7 @@ master:
 
 mode
 : Helm command to run; valid options are `upgrade`, `lint`, and `uninstall`.
-: This setting was called `helm_command` prior to version 0.11.0. 
+: This setting was called `helm_command` prior to version 0.11.0.
 
 update_dependencies
 : Run `helm dependency update` before running the main helm command.
@@ -44,7 +44,7 @@ namespace
 : Kubernetes namespace for the un/installation.
 
 debug
-: Produce debug output from the plugin and helm itself. 
+: Produce debug output from the plugin and helm itself.
 
 chart
 : Helm chart to install or lint.
@@ -83,11 +83,11 @@ dry_run
 : Prepare the un/installation, but do not perform it.
 
 wait_for_upgrade
-: Wait until kubernetes resources are in a ready state before marking the installation successful.
+: Wait until kubernetes resources are in a ready state.
 : This setting was called `wait` prior to version 0.11.0.
 
 timeout
-: Timeout for any individual kubernetes operation, formatted as a Golang duration (e.g. "3m20s").
+: Timeout for any individual kubernetes operation.
 
 force_upgrade
 : Pass `--force` to `helm upgrade`.
@@ -110,8 +110,6 @@ cleanup_failed_upgrade
 
 skip_tls_verify
 : Do not check for a valid certificate when connecting to the kubernetes api.
-
-See [docs/parameter_reference.md](https://github.compelotech/drone-helm3/blob/master/docs/parameter_reference.md) for a more detailed explanation of these parameters.
 
 ## 更多用法
 

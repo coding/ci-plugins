@@ -16,7 +16,7 @@ master:
 ## 参数含义
 
 context_dir
-: The context directory to execute the maven goals. 
+: The context directory to execute the maven goals.
 
 goals
 : An array of maven goals to run.Defaults: `-DskipTests clean install`.

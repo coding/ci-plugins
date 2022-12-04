@@ -41,21 +41,21 @@ recipients
 : List of recipients to send this mail to (besides the commit author)
 
 recipients_file
-: Filename to load additional recipients from 
+: Filename to load additional recipients.
 
 recipients_only
 : Do not send mails to the commit author, but only to recipients,
  defaults to `false`
 
 subject
-: The subject line template 
+: The subject line template.
 
 body
-: The email body template . 
+: The email body template. 
 This can be an inline template, or a URL (`file:///` allowed)
 
 attachment
-: An optional file to attach to the sent mail(s). 
+: An optional file to attach to the sent mail(s).
 This can be an absolute path or a path relative to the working directory
 
 ### Template Reference
@@ -180,7 +180,7 @@ uppercase
 : converts a string to uppercase
 
 lowercase
-: converts a string to lowercase. 
+: converts a string to lowercase.
 Example `{{lowercase commit.author.name}}`
 
 datetime
@@ -194,7 +194,7 @@ failure
 : conditional which returns true if the build has failed
 
 truncate
-: returns a truncated string to n characters. 
+: returns a truncated string to n characters.
 Example `{{truncate commit.SHA 8}}`
 
 urlencode

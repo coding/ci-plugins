@@ -33,7 +33,7 @@ setupfile
 : The relative path from the workspace root to the setup.py file to be used.
 
 skip_build
-: Skip the build and only upload pre-build files from `dist/*` 
+: Skip the build and only upload pre-build files from `dist/*`
 
 ## 更多用法
 

@@ -55,9 +55,7 @@ api_server
 kubernetes_token
 : kubernetes token to connect to the api server
 
-### Secret Reference
-
-There are a few secrets that the plugin expects to be able to connect to a kubernetes cluster
+### Env Reference
 
 : API_SERVER url to connect to the Kubernetes api server
 

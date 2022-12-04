@@ -37,8 +37,7 @@ clean_dir
 : if set to true destination directory would be cleaned before file transfer.
 
 chmod
-: if set to true ```chmod``` would be executed after file transferred, 
-otherwise no ```chmod``` (default true)
+: if set to true ```chmod``` would be executed after file transferred.
 
 verify
 : if set to true the SSL certificate validation is enforced,
