@@ -51,7 +51,7 @@ subject
 : The subject line template.
 
 body
-: The email body template. 
+: The email body template.
 This can be an inline template, or a URL (`file:///` allowed)
 
 attachment
