@@ -1,0 +1,10 @@
+{
+  "name": "Capistrano",
+  "description": "通过Capistrano部署应用",
+  "mark": "社区",
+  "tags": [ "DEPLOY","SSH","RUBY"],
+  "images": "https://hub.docker.com/r/glaszig/drone-capistrano",
+  "source": "https://github.com/glaszig/drone-capistrano",
+  "bugs": "https://github.com/glaszig/drone-capistrano/issues",
+  "logo": "logo.svg"
+}

@@ -1,0 +1,29 @@
+# Newrelic Deployment
+
+将部署报告记录到dashboard
+
+## 在 Coding-CI 上使用
+
+```yml
+master:
+  push:
+  - stages:
+    - name: newrelic
+      image: cityfurniture/drone-newrelic-deployment
+      settings:
+        api_key: <your-api-key>
+        app_name: <your-app-name>
+```
+
+## 参数含义
+
+app_id
+: Newrelic APP ID
+
+api_key
+: Newrelic API Key
+: validate config file before generation
+
+## 更多用法
+
+更多用法参考：[cityfurniture/newrelic-deployment](https://github.com/cityfurniture/newrelic-deployment)

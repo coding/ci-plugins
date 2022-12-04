@@ -1,0 +1,10 @@
+{
+  "name": "Kubernetes",
+  "description": "实现kubectl apply命令的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/danielgormly/drone-plugin-kube",
+  "source": "https://github.com/danielgormly/drone-plugin-kube",
+  "bugs": "https://github.com/danielgormly/drone-plugin-kube/issues",
+  "logo": "logo.svg"
+}

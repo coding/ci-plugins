@@ -1,0 +1,10 @@
+{
+  "name": "UPX",
+  "description": "UPX压缩插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/cnbattle/drone-upx",
+  "source": "https://github.com/cnbattle/drone-upx",
+  "bugs": "https://github.com/cnbattle/drone-upx/issues",
+  "logo": "logo.svg"
+}

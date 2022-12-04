@@ -1,0 +1,10 @@
+{
+  "name": "Vercel Deploy",
+  "description": "部署应用到Vercel",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/kameshsampath/drone-vercel-deploy",
+  "source": "https://github.com/kameshsampath/drone-vercel-deploy",
+  "bugs": "https://github.com/kameshsampath/drone-vercel-deploy/issues",
+  "logo": "logo.svg"
+}

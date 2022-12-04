@@ -1,0 +1,10 @@
+{
+  "name": "Load and store",
+  "description": "将镜像发布到Docker仓库的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/allgreed/drone-load-and-store",
+  "source": "https://github.com/allgreed/drone-load-and-store",
+  "bugs": "https://github.com/allgreed/drone-load-and-store/issues",
+  "logo": "logo.svg"
+}

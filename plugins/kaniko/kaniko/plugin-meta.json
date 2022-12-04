@@ -1,0 +1,10 @@
+{
+  "name": "kaniko",
+  "description": "调用官方Google Kaniko的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/banzaicloud/drone-kaniko",
+  "source": "https://github.com/banzaicloud/drone-kaniko",
+  "bugs": "https://github.com/banzaicloud/drone-kaniko/issues",
+  "logo": "logo.svg"
+}
