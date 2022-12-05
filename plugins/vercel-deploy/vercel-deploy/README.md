@@ -10,7 +10,6 @@ master:
   - stages:
   - name: deploy
     image: docker.io/kameshsampath/drone-vercel-deploy
-    pull: never
     settings:
       log_level: debug
       # valid values are production, development, preview

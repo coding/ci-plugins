@@ -10,7 +10,6 @@ master:
   - stages:
     - name: run plugins/drone-diagnostics plugin
       image: plugins/drone-diagnostics
-      pull: if-not-exists
       commands:
         - env
         - ping www.github.com -w 5

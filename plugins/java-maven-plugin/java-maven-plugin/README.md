@@ -10,7 +10,6 @@ master:
   - stages:
     - name: build-java-app
       image: docker.io/kameshsampath/drone-java-maven-plugin:v1.0.0
-      pull: if-not-exists
 ```
 
 ## 参数含义

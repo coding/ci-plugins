@@ -1,5 +1,5 @@
 {
-  "name": "download",
+  "name": "email",
   "description": "通过emial发送构建消息的插件",
   "mark": "社区",
   "tags": [],

@@ -10,7 +10,6 @@ master:
   - stages:
     - name: deploy
       image: zc2638/drone-k8s-plugin
-      pull: if-not-exists
       settings:
         k8s_server: https://localhost:6443
         k8s_token:
