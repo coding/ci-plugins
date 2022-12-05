@@ -10,7 +10,6 @@ master:
   - stages:
     - name: scan
       image: drone-plugins/drone-snyk
-      pull: if-not-exists
       privileged: true
       settings:
           dockerfile: link to dockerfile in repo
