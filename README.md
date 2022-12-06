@@ -22,6 +22,7 @@ fork 本项目，在 `plugins` 目录下创建插件子目录，比如 `plugins/
 添加插件的 Meta 信息`plugin-meta.json` 到子目录中，字段如下：
 
 ```json
+
 {
   "name": "npm",
   "description": "发布 NPM 包到仓库，支持官方仓库和私有仓库",
@@ -32,6 +33,7 @@ fork 本项目，在 `plugins` 目录下创建插件子目录，比如 `plugins/
   "bugs": "https://github.com/drone-plugins/drone-npm/issues",
   "logo": "logo.svg"
 }
+
 ```
 
 - `name`: 插件名称，需要全英文，单词之间以中划线`-`分隔。
