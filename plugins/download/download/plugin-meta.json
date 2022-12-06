@@ -2,7 +2,7 @@
   "name": "download",
   "description": "下载构建所需文件的插件",
   "mark": "社区",
-  "tags": [ "TARBALL","ARCHIVE","RETRIEVE"],
+  "tags": [ "tarball","archive","retrieve"],
   "images": "https://hub.docker.com/r/drone-plugins/drone-download",
   "source": "https://github.com/drone-plugins/drone-download",
   "bugs": "https://github.com/drone-plugins/drone-download/issues",
