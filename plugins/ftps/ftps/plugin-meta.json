@@ -2,7 +2,7 @@
   "name": "ftps",
   "description": "通过ftps上传制品的插件",
   "mark": "社区",
-  "tags": ["PUBLISH","SSH"],
+  "tags": ["publish","ssh"],
   "images": "https://hub.docker.com/r/cschlosser/drone-ftps",
   "source": "https://github.com/cschlosser/drone-ftps",
   "bugs": "https://github.com/cschlosser/drone-ftps/issues",

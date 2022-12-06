@@ -2,7 +2,7 @@
   "name": "Codecov",
   "description": "推送测试报告到Codecov",
   "mark": "社区",
-  "tags": [ "TEST","PUBLISH"],
+  "tags": [ "test","publish"],
   "images": "https://hub.docker.com/r/robertstettner/drone-codecov",
   "source": "https://github.com/robertstettner/drone-codecov",
   "bugs": "https://github.com/robertstettner/drone-codecov/issues",

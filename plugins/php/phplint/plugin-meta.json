@@ -1,7 +1,7 @@
 {
   "name": "phplint",
   "description": "phplint is a tool that can speed up linting of php files by running several lint processes at once.",
-  "tags": ["lint", "PHP"],
+  "tags": ["lint", "php"],
   "mark": "社区",
   "source": "https://github.com/overtrue/phplint",
   "bugs": "https://github.com/overtrue/phplint/issues",
