@@ -1,0 +1,10 @@
+{
+  "name": "Docker",
+  "description": "在docker里面用docker构建和部署docker镜像",
+  "mark": "社区",
+  "tags": [ "docker"],
+  "images": "https://hub.docker.com/r/drone-plugins/drone-docker",
+  "source": "https://github.com/drone-plugins/drone-docker",
+  "bugs": "https://github.com/drone-plugins/drone-docker/issues",
+  "logo": "logo.svg"
+}

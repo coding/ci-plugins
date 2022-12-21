@@ -1,0 +1,10 @@
+{
+  "name": "Marathon",
+  "description": "部署应用到Marathon集群的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/expansioncap/drone-marathon",
+  "source": "https://github.com/expansioncap/drone-marathon",
+  "bugs": "https://github.com/expansioncap/drone-marathon/issues",
+  "logo": "logo.svg"
+}

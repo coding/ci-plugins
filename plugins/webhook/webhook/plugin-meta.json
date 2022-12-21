@@ -1,0 +1,10 @@
+{
+  "name": "Webhook",
+  "description": "通过webhook发送构建状态通知",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/drone-plugins/drone-webhook",
+  "source": "https://github.com/drone-plugins/drone-webhook",
+  "bugs": "https://github.com/drone-plugins/drone-webhook/issues",
+  "logo": "logo.svg"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Kubernetes Plugin",
+  "description": "创建和更新K8s资源的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/zc2638/drone-k8s-plugin",
+  "source": "https://github.com/zc2638/drone-k8s-plugin",
+  "bugs": "https://github.com/zc2638/drone-k8s-plugin/issues",
+  "logo": "logo.svg"
+}

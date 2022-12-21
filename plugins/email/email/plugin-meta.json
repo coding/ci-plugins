@@ -1,0 +1,10 @@
+{
+  "name": "email",
+  "description": "通过emial发送构建消息的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/drillster/drone-email",
+  "source": "https://github.com/drillster/drone-email",
+  "bugs": "https://github.com/drillster/drone-email/issues",
+  "logo": "logo.svg"
+}

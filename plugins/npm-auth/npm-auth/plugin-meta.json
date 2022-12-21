@@ -1,0 +1,10 @@
+{
+  "name": "NPM Auth",
+  "description": "通过在本地生成.npmrc文件验证公有和私有NPM仓库",
+  "mark": "社区",
+  "images": "https://hub.docker.com/r/robertstettner/drone-npm-auth",
+  "source": "https://github.com/robertstettner/drone-npm-auth",
+  "bugs": "https://github.com/robertstettner/drone-npm-auth/issues",
+  "tags": [],
+  "logo": "logo.svg"
+}

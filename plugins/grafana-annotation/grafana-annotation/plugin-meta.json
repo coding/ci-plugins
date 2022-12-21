@@ -1,0 +1,10 @@
+{
+  "name": "grafana-annotation",
+  "description": "在Grafana中创建注解的插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/fdeschenes/drone-grafana-annotation",
+  "source": "https://github.com/fdeschenes/drone-grafana-annotation",
+  "bugs": "https://github.com/fdeschenes/drone-grafana-annotation/issues",
+  "logo": "logo.svg"
+}

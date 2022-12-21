@@ -1,0 +1,10 @@
+{
+  "name": "yaml2json",
+  "description": "将yaml转换为json格式",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/simplealpine/json2yaml",
+  "source": "",
+  "bugs": "",
+  "logo": ""
+}

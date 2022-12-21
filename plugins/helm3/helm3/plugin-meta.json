@@ -1,0 +1,10 @@
+{
+  "name": "helm3",
+  "description": "Helm3插件",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/pelotech/drone-helm3",
+  "source": "https://github.com/pelotech/drone-helm3",
+  "bugs": "https://github.com/pelotech/drone-helm3/issues",
+  "logo": "logo.svg"
+}

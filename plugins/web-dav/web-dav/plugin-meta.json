@@ -1,0 +1,10 @@
+{
+  "name": "WebDAV",
+  "description": "推送构建制品到任何WebDAV服务器",
+  "mark": "社区",
+  "tags": [],
+  "images": "https://hub.docker.com/r/vividboarder/drone-webdav",
+  "source": "https://github.com/vividboarder/drone-webdav",
+  "bugs": "https://github.com/vividboarder/drone-webdav/issues",
+  "logo": "logo.svg"
+}
