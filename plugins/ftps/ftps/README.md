@@ -18,45 +18,34 @@ master:
         secrets: [ ftp_username, ftp_password ]
 ```
 
-## 参数含义
-
-### Env Reference
-
-FTP_PASSWORD
-: password used to login to the FTP server with the specified user
-
-FTP_USERNAME
-: Username used to login to the FTP server.
-
-### Parameter Reference
+## 参数
 
 hostname
-: FTP host including the port
+: FTP主机，包括端口
 
 clean_dir
-: if set to true destination directory would be cleaned before file transfer.
+: 如果设置为true，将在文件传输之前清理目标目录
 
 chmod
-: if set to true ```chmod``` would be executed after file transferred.
+: 如果设置为true，将在文件传输后执行```chmod```。
 
 verify
-: if set to true the SSL certificate validation is enforced,
- otherwise no validation (default true)
+: 如果设置为true，则强制SSL证书验证，否则无验证（默认为true）
 
 secure
-: if set to true FTPS is enforced, otherwise plain FTP is used (default true)
+: 如果设置为true，则强制FTPS，否则使用普通FTP（默认为true）
 
 dest_dir
-: where to put the files on the remote server (default /)
+: 将文件放在远程服务器上的位置（默认/）
 
 src_dir
-: which local directory should be used for the upload (default ./)
+: 用于上传的本地目录（默认值./）
 
 exclude
-: egrep like pattern matching to exclude files from uploading (default none)
+: egrep-like模式匹配从上传的文件中排除文件（默认无）
 
 include
-: egrep like pattern matching to include files to upload (default none)
+: egrep类模式匹配要上传的文件（默认为无）
 
 ## 更多用法
 

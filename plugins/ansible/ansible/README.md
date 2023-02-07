@@ -1,7 +1,6 @@
 # Ansible
 
-Ansible can help you demonstrate value, connect teams,
-and deliver efficiencies for your organization.
+Ansible可以帮助您展示价值，连接团队，并为您的组织带来效率。
 
 ## 在 Docker 上使用
 

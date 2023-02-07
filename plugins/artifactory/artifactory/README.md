@@ -20,18 +20,27 @@ master:
           - target/*.war
 ```
 
-## 参数含义
+## 参数
 
-* `url` - Artifactory URL (Includes scheme)
-* `username` - Artifactory username, default to blank
-* `password` - Artifactory password, default to blank
-* `pom` - An optional pom.xml path were to read project details
-* `group_id` - Project group id, default to value from Pom file
-* `artifact_id` - Project artifact id, default to value from Pom file
-* `version` - Artifact version, default to value from Pom file
-* `repo_key` - Target repository key
-* `files` - List of files to deploy
-* `force_upload` - Force upload if a file already exists
+* `url`-项目url（包括scheme）
+
+* `username`-制品库用户名，默认为空
+
+* `password`-制品库密码，默认为空
+
+* `pom`-用于读取项目详细信息的可选的pom.xml路径
+
+* `group_id`-项目组id，默认为Pom文件中的值
+
+* `artifact_id`-项目项目id，默认为Pom文件中的值
+
+* `version`-制品版本，默认为Pom文件中的值
+
+* `repo_key`-目标存储库密钥
+
+* `files`-要部署的文件列表
+
+* `force_upload`-如果文件已存在，则强制上传
 
 ## 更多用法
 

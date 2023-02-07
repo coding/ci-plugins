@@ -20,23 +20,17 @@ master:
             tags: ["project:${DRONE_REPO_NAME}", "branch:${DRONE_BRANCH}"]
 ```
 
-## 参数含义
+## 参数
 
-api_key
-: The Datadog API key that'll be used to send metrics and events.
+* `api_key`：用于发送metrics和events的Datadog API密钥。
 
-dry_run
-: When set to `true`, the plugin only computes metrics and events without
- sending anything to the Datadog intake. When the plugin runs in dry mode,
-it doesn't require an `api_key` to be set,useful for testing.
+* `dry_run`：当设置为`true`时，插件只计算metrics和events，而不计算向Datadog入口发送任何信息。
 
-metrics
-: A list of metrics to be sent to Datadog. A metric must have a `name` and a `value`;
-`type` defaults to `gauge`; `tags` and `hostname` are optional.
+* `metrics`：要发送到Datadog的度量列表。
 
-events
-: A list of events to be sent to Datadog. An event must have a `title` and a `text`;
-`alert_type` defaults to `info`.
+* `events`：要发送到Datadog的事件列表。事件必须具有`title`和`text`；
+
+* `alert_type`默认为`info`。
 
 ## 更多用法
 

@@ -23,16 +23,13 @@ master:
           - refs/tags/production-*
 ```
 
-## 参数含义
+## 参数
 
-capistrano_private_key
-: Private SSH deploy key
+* capistran_private_key：专用SSH部署密钥
 
-capistrano_public_key
-: Public SSH deploy key
+* capistrano_public_key：公共SSH部署密钥
 
-tasks
-: The Capistrano tasks to run
+* tasks：要运行的Capistrano任务
 
 ## 更多用法
 

@@ -17,25 +17,25 @@ master:
 ## 参数含义
 
 source
-: Source URL for the download
+: 下载的源URL
 
 destination
-: Destination for the download
+: 下载目标路径
 
 username
-: Username for basic auth
+: basic auth 的用户名
 
 password
-: Password for basic auth
+: basic auth 的密码
 
 skip_verify
-: Skip SSL verification
+: 跳过 SSL 校验
 
 md5
-: Checksum in MD5 format
+: MD5格式的校验和
 
 sha256
-: Checksum in SHA256 format
+: SHA256格式的校验和
 
 ## 更多用法
 

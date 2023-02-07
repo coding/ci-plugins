@@ -27,13 +27,13 @@ api_key
 : api key
 
 tags
-: array of tags
+: tag 列表
 
 text
-: description
+: 描述
 
 url
-: server url
+: 服务器 url
 
 ## 更多用法
 
