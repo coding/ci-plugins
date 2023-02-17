@@ -18,37 +18,37 @@ master:
 ## 参数含义
 
 buildDrafts
-: Include content marked as draft
+: 包括标记为草稿的内容
 
 buildExpired
-: include expired content
+: 包括过期的内容
 
 buildFuture
-: include content with publishdate in the future
+: 包含未来发布日期的内容
 
 config
-: config file (default is path/config.yaml|json|toml)
+: 配置文件（默认路径/config.yaml|json|toml）
 
 content
-: filesystem path to content directory
+: 内容目录的文件系统路径
 
 layout
-: filesystem path to layout directory
+: 设计目录的文件系统路径
 
 output
-: filesystem path to write files to
+: 写入文件的文件系统路径
 
 source
-: filesystem path to read files relative from
+: 读取文件的文件系统路径
 
 theme
-: theme to use (located in /themes/THEMENAME/)
+: 要使用的主题（位于/themes/THEMENAME/）
 
 url
-: hostname (and path) to the root
+: 根目录的主机名（和路径）
 
 validate
-: validate config file before generation
+: 生成之前验证配置文件
 
 ## 更多用法
 

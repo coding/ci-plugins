@@ -20,39 +20,37 @@ master:
 ## 参数含义
 
 plan
-: if true, calculates a plan but does __NOT__ apply it.
+: 如果为`true`，则生成一个plan，但是不应用
 
 remote
-: contains the configuration for the Terraform remote state tracking.
+: 包含 Terraform 远程状态跟踪的配置
 
 remote.backend
-: the Terraform remote state backend to use.
+: 要使用的 Terraform 远程状态后端
 
 remote.config
-: a map of configuration parameters for the remote state backend.
-Each value is passed as a `-backend-config=<key>=<value>` option.
+: 远程状态后端的配置参数映射
 
 vars
-: a map of variables to pass to the Terraform `plan` and `apply` commands.
-Each value is passed as a `-var <key>=<value>` option.
+: 要传递给 Terraform `plan` 和 `apply` 命令的变量映射
 
 secrets
-: a map of variables to pass to the Terraform `plan` and `apply` commands.
-Each value is passed as a `-var <key>=<ENVVAR>` option.
+: 要传递给 Terraform `plan` 和 `apply` 命令的变量映射
 
 ca_cert
-: ca cert to add to your environment.
+: 添加到环境中的ca_cert
+
 sensitive
-: (default: `false`) - Whether or not to suppress terraform commands to stdout.
+: 是否将Terraform命令输出，默认为`false`
 
 role_arn_to_assume
-: A role to assume before running the terraform commands.
+: 在运行 terraform 命令之前设定的角色
 
 root_dir
-: The root directory where the terraform files live.
+: terraform 文件所在的根目录
 
 parallelism
-: The number of concurrent operations as Terraform walks its graph.
+: Terraform 并发数
 
 ## 更多用法
 

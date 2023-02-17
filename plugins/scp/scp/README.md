@@ -22,105 +22,70 @@ master:
 ## 参数含义
 
 host
-: target hostname or IP
+: 目标主机名或IP
 
 port
-: ssh port of target host
+: 目标主机的ssh端口
 
 username
-: account for target host user
+: 目标主机用户的帐户
 
 password
-: password for target host user
+: 目标主机用户的密码
 
 key
-: plain text of user private key
+: 用户私钥明文
 
 passphrase
-: The purpose of the passphrase is usually to encrypt the private key.
+: 用于加密私钥
 
 target
-: folder path of target host
+: 目标主机的文件夹路径
 
 source
-: source lists you want to copy
+: 要复制的源列表
 
 rm
-: remove target folder before copy files and artifacts
+: 在复制文件和制品前删除目标文件夹
 
 timeout
-: Timeout is the maximum amount of time for the ssh connection to establish.
+: ssh连接建立的超时时间
 
 command_timeout
-: Command timeout is the maximum amount of time for the execute commands.
+: 执行命令的超时时间
 
 strip_components
-: remove the specified number of leading path elements
+: 删除指定数量的路径前缀
 
 tar_tmp_path
-: temporary path for tar file on the dest host
+: 目标主机上 tar 文件的临时路径
 
 tar_exec
-: alternative `tar` executable to on the dest host
+: 在目标主机上替代 `tar` 可执行文件
 
 overwrite
-: use `--overwrite` flag with tar
+: 为tar文件增加 `--overwrite` flag
 
 proxy_host
-: proxy hostname or IP
+: 代理主机名或IP
 
 proxy_port
-: ssh port of proxy host
+: 代理主机ssh端口
 
 proxy_username
-: account for proxy host user
+: 代理主机用户账户
 
 proxy_password
-: password for proxy host user
+: 代理主机用户密码
 
 proxy_key
-: plain text of proxy private key
+: 代理私钥明文
 
 proxy_key_path
-: key path of proxy private key
+: 代理私钥路径
 
 proxy_passphrase
-: The purpose of the passphrase is usually to encrypt the private key.
-
-### Template Reference
-
-repo.owner
-: repository owner
-
-repo.name
-: repository name
-
-build.status
-: build status type enumeration, either `success` or `failure`
-
-build.event
-: build event type enumeration, one of `push`, `pull_request`, `tag`, `deployment`
-
-build.number
-: build number
-
-build.commit
-: git sha for current commit
-
-build.branch
-: git branch for current commit
-
-build.tag
-: git tag for current commit
-
-build.ref
-: git ref for current commit
-
-build.author
-: git author for current commit
-
-build.link
-: link the the build results in drone
+: 用于加密私钥
 
 ## 更多用法
 

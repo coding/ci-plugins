@@ -19,31 +19,31 @@ master:
 ## 参数含义
 
 npm_username
-: The NPM username.
+: NPM 用户名.
 
 npm_password
-: The NPM password.
+: NPM 密码.
 
 npm_email
-: The NPM email.
+: NPM 邮件.
 
 username
-: The NPM username. Required.
+: NPM 用户名，必选
 
 password
-: The NPM password. Required.
+: NPM 密码，必选
 
 email
-: The NPM email. Required.
+: NPM 邮件，必选
 
 registry
-: The NPM registry. Defaults to the default NPM registry.
+: NPM 注册表
 
 scope
-: Scope of the NPM authentication. Optional.
+:  NPM authentication 范围.，可选.
 
 path
-: Output path of the generated `.npmrc` file. Defaults to `./`.
+: : 生成的 .npmrc 文件的输出路径，默认为 `./`.
 
 ## 更多用法
 

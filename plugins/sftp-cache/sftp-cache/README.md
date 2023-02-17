@@ -39,28 +39,28 @@ master:
 ## 参数含义
 
 server
-: target hostname or IP
+: 目标主机名或IP
 
 port
-: ssh port of target host
+: 目标主机ssh端口
 
 username
-: account for target host user
+: 目标主机用户账户
 
 password
-: password for target host user
+: 目标主机用户密码
 
 key
-: plain text of user private key
+: 用户私钥明文
 
 rebuild
-: boolean flag to trigger a rebuild
+: 触发重复构建的布尔值
 
 restore
-: boolean flag to trigger a restore
+: 触发restore的布尔值
 
 ignore_branch
-: boolean flag to ignore commit branch name on hash value
+: 忽略commit分支名的布尔值
 
 ## 更多用法
 

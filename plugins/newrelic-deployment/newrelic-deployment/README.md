@@ -21,8 +21,7 @@ app_id
 : Newrelic APP ID
 
 api_key
-: Newrelic API Key
-: validate config file before generation
+: Newrelic API Key，在生成前验证配置文件
 
 ## 更多用法
 

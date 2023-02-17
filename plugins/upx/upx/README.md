@@ -19,13 +19,13 @@ master:
 ## 参数含义
 
 level
-: Compression level, a value between 1 and 9, the bigger the better.
+: 压缩级别，取值在1到9之间，越大越好
 
 original_file
-: An original file to be processed.
+: 待处理的原始文件
 
 save_file
-: Save the path and file name of the compressed file.
+: 保存压缩文件的路径和文件名
 
 ## 更多用法
 

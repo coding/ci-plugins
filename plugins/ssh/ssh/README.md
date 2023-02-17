@@ -25,82 +25,56 @@ master:
 
 ## 参数含义
 
-ssh_username
-: account for target host user
-
-ssh_password
-: password for target host user
-
-ssh_passphrase
-: The purpose of the passphrase is usually to encrypt the private key.
-
-ssh_key
-: plain text of user private key
-
-proxy_ssh_username
-: account for user of proxy server
-
-proxy_ssh_password
-: password for user of proxy server
-
-proxy_ssh_passphrase
-: The purpose of the passphrase is usually to encrypt the private key.
-
-proxy_ssh_key
-: plain text of user private key for proxy server
-
-### Parameter Reference
-
 host
-: target hostname or IP
+: 目标主机名或IP
 
 port
-: ssh port of target host
+: 目标主机ssh端口
 
 username
-: account for target host user
+: 目标主机用户账户
 
 password
-: password for target host user
+: 目标主机用户密码
 
 key
-: plain text of user private key
+: 用户私钥明文
 
 key_path
-: key path of user private key
+: 用户私钥路径
 
 envs
-: custom secrets which are made available in the script section
+: 在脚本部分提供的自定义secrets
 
 script
-: execute commands on a remote server
+: 在远端执行命令
 
 script_stop
-: stop script after first failure
+: 第一次失败后停止脚本
 
 timeout
-: Timeout is the maximum amount of time for the ssh connection to establish.
+: ssh连接建立超时时间
 
 command_timeout
-: Command timeout is the maximum amount of time for the execute commands.
+：命令执行超时时间
 
 proxy_host
-: proxy hostname or IP
+: 代理主机名或IP
 
 proxy_port
-: ssh port of proxy host
+: 代理主机ssh端口
 
 proxy_username
-: account for proxy host user
+: 代理主机用户账户
 
 proxy_password
-: password for proxy host user
+: 代理主机用户密码
 
 proxy_key
-: plain text of proxy private key
+: 代理私钥明文
 
 proxy_key_path
-: key path of proxy private key
+: 代理私钥路径
 
 ## 更多用法
 

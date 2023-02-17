@@ -20,31 +20,31 @@ master:
 ## 参数含义
 
 registry
-: authenticates to this registry
+: 对此注册表进行身份验证
 
 username
-: authenticates with this username
+: 使用此用户名进行身份验证
 
 password
-: authenticates with this password
+: 使用此密码进行身份验证
 
 repo
-: repository name for the image
+: 镜像仓库名
 
 tags
-: repository tag for the image
+: 镜像仓库tag
 
 dockerfile
-: dockerfile to be used, defaults to Dockerfile
+: 要使用的dockerfile，默认为Dockerfile
 
 context
-: the context path to use, defaults to root of the git repo
+: 要使用的上下文路径, 默认为git仓库根目录
 
 target
-: the build target to use, must be defined in the docker file
+: 要使用的构建目标，必须在dockerfile中定义
 
 build_args
-: custom arguments passed to docker build
+: 传递给 docker build 的自定义参数
 
 ## 更多用法
 

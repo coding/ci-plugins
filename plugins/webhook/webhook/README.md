@@ -26,31 +26,31 @@ master:
 ## 参数含义
 
 urls
-: Payload gets sent to this list of URLs
+: 要发送的地址列表
 
 username
-: Username for basic auth
+: basic auth 用户名
 
 password
-: Password for basic auth
+: basic auth 密码
 
 method
-: HTTP submission method, defaults to POST
+: HTTP请求方式，默认POSt
 
 content_type
-: Content type, defaults to application/json
+: 内容类型，默认为 application/json
 
 template
-: Custom template for webhook
+: webhook自定义模版
 
 headers
-: Map of custom headers
+: 自定义header映射
 
 skip_verify
-: Skip SSL verification
+: 跳过SSL verification
 
 debug
-: Enable debug information
+: 启用调试信息
 
 ## 更多用法
 

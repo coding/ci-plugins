@@ -21,95 +21,88 @@ master:
 
 ```
 
-## 参数含义
+## 参数
 
 mode
-: Helm command to run; valid options are `upgrade`, `lint`, and `uninstall`.
-: This setting was called `helm_command` prior to version 0.11.0.
+: 要运行的Helm命令；有效选项为“upgrade”、“lint”和“uninstall”。此设置在版本0.11.0之前称为“helm_command”。
 
 update_dependencies
-: Run `helm dependency update` before running the main helm command.
+: 在运行主helm命令之前运行“helm dependency update”。.
 
 add_repos
-: Run `helm repo add` before running the main helm command.
-: This setting was called `helm_repos` prior to version 0.11.0.
+: 在运行主helm命令之前运行“helm repo add”。此设置在版本0.11.0之前称为“helm_repos”。
 
 repo_certificate
-: Base64 encoded TLS certificate for a chart repository.
+: chart 仓库的Base64编码TLS证书
 
 repo_ca_certificate
-: Base64 encoded TLS certificate for a chart repository certificate authority.
+: chart仓库证书颁发机构的Base64编码TLS证书
 
 namespace
-: Kubernetes namespace for the un/installation.
+: 安装/卸载的Kubernetes namespace
 
 debug
-: Produce debug output from the plugin and helm itself.
+: 生成plugin和helm自身的debug输出
 
 chart
 : Helm chart to install or lint.
 
 release
-: Release name to un/install.
+: 安装/卸载的Release名称
 
 values
 : Arguments for helm's `--set` flag.
 
 string_values
-: Arguments for helm's `--set-string` flag.
+:参数用于helm的`--set-string`标志。
 
-values_files
-: Arguments for helm's `--values` flag.
+values_files:
+参数用于helm的`--values`标志。
 
 kube_api_server
-: Kubernetes api server.
-: This setting was called `api_server` prior to version 0.11.0.
+:Kubernetes api服务器。此设置在版本0.11.0之前称为`api_server`。
 
 kube_token
-: Token for connecting to the kubernetes api.
-: This setting was called `kubernetes_token` prior to version 0.11.0.
+:用于连接Kubernetes api的令牌。此设置在版本0.11.0之前称为`kubernetes_token`。
+
 kube_service_account
-: Account name for connecting to the kubernetes api.
-: This setting was called `service_account` prior to version 0.11.0.
+:用于连接Kubernetes api的帐户名称。此设置在版本0.11.0之前称为`service_account`。
 
 kube_certificate
-: Base64-encoded TLS certificate, for clusters using a self-signed CA certificate
-: This setting was called `kubernetes_certificate` prior to version 0.11.0.
+:基于64位编码的TLS证书，用于使用自签名CA证书的集群。此设置在版本0.11.0之前称为`kubernetes_certificate`。
 
 chart_version
-: Specific chart version to install.
+:要安装的特定chart版本。
 
 dry_run
-: Prepare the un/installation, but do not perform it.
+:准备安装/卸载，但不执行它。
 
 wait_for_upgrade
-: Wait until kubernetes resources are in a ready state.
-: This setting was called `wait` prior to version 0.11.0.
+:等待Kubernetes资源处于就绪状态。此设置在版本0.11.0之前称为`wait`。
 
 timeout
-: Timeout for any individual kubernetes operation.
+:任何单个Kubernetes操作的超时时间。
 
 force_upgrade
-: Pass `--force` to `helm upgrade`.
-: This setting was called `force` prior to version 0.11.0.
+:将`--force`传递给`helm upgrade`。此设置在版本0.11.0之前称为`force`。
 
 reuse_values
-: Reuse the values from a previous release.
+:重用以前发布的值。
 
 keep_history
-: Pass `--keep-history` to `helm uninstall`.
+:将`--keep-history`传递给`helm uninstall`。
 
 lint_strictly
-: Pass `--strict` to `helm lint`.
+:将`--strict`传递给`helm lint`。
 
 atomic_upgrade
-: Pass `--atomic` to `helm upgrade`.
+:将`--atomic`传递给`helm upgrade`。
 
 cleanup_failed_upgrade
-: Pass `--cleanup-on-fail` to `helm upgrade`.
+:将`--cleanup-on-fail`传递给`helm upgrade`。
 
 skip_tls_verify
-: Do not check for a valid certificate when connecting to the kubernetes api.
+:连接到Kubernetes api时不检查有效证书。
 
 ## 更多用法
 

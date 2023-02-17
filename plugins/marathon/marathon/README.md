@@ -17,16 +17,16 @@ master:
 ## 参数含义
 
 server
-: The Marathon server URL. defaults to `http://marathon.mesos:8080`
+: Marathon服务器地址. 默认为`http://marathon.mesos:8080`
 
 marathonfile
-: The Marathon configuration file. defaults to `marathon.json`.
+: Marathon配置文件. 默认为 `marathon.json`
 
 trigger_restart
-: Force a restart of the application. defaults to `false`.
+: 强制重启应用. 默认为`false`
 
 values
-: Map of values to replace in the `marathonfile`, above.  Optional.
+: 上面`marathonfile`的值映射，可选
 
 ## 更多用法
 

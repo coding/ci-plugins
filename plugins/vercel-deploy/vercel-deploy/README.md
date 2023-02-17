@@ -28,10 +28,17 @@ master:
 
 ## 参数含义
 
-* `vercel_token`: The Vercel Token to use
-* `vercel_org_id`: The organization id to use with Vercel deployment
-* `vercel_project_id` The Vercel Project Name or ID.
-* `log_level`:  If set to debug enable scripting debug
+vercel_token
+: 使用的Vercel令牌
+
+vercel_org_id
+: 用于Vercel部署的组织ID
+
+vercel_project_id
+: Vercel 项目名称或ID
+
+log_level
+:  如果设置为允许调试，则启用脚本调试
 
 ## 更多用法
 

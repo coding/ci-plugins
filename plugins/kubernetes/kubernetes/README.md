@@ -21,19 +21,19 @@ master:
 ## 参数含义
 
 ca
-: Base-64 encoded string of the K8s CA cert
+: K8s CA证书的Base-64编码字符串
 
 server
-: Full url of Kubernetes API endpoint including protocol & port
+: : Kubernetes API的完整 url，包括协议和端口
 
 kubernetes_token
 : Kubernetes service account token (Not base64 encoded)
 
 template
-: Path to Kubernetes yaml based definition file (Configmap or Deployment)
+: 基于 Kubernetes yaml 的定义文件（Configmap 或 Deployment）的路径
 
 configmap_file
-: path to file containing data to inject in configmap.
+: 包含要注入 configmap 的数据的文件的路径。
 
 `*`
 : Other parameters will be made available for interpolation.
