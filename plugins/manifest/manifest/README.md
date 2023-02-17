@@ -25,16 +25,16 @@ master:
 ## 参数含义
 
 username
-: Username for DockerHub authentication (Skip for anonymous access)
+: DockerHub认证用户名（匿名访问跳过）
 
 password
-: Password for DockerHub authentication (Skip for anonymous access)
+: DockerHub认证密码（匿名访问跳过）
 
 insecure
-: Enable insecure (not TLS) registry support
+: 启用不安全（非 TLS）注册表支持
 
 platforms
-: List of platforms in format OS/ARCH
+: 格式为 OS/ARCH 的平台列表
 
 target
 : Target image for manifest
@@ -43,16 +43,16 @@ template
 : Template for manifest sources, OS and ARCH are replaced
 
 spec
-: Path to a manifest specification file
+: manifest指定文件的路径
 
 ignore_missing
-: Ignore missing source images
+: 忽略丢失的源镜像
 
 tag, tags
-: List of tags, only used within `spec`
+: tag列表， 仅在 `spec`中使用
 
 default_tags, auto_tag
-: Use default/auto tags like the Docker plugin, only used within `spec`
+: 使用默认/自动标签，如 Docker 插件，仅在 `spec` 中使用
 
 ## 更多用法
 

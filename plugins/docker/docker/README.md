@@ -20,117 +20,112 @@ master:
 ## 参数含义
 
 registry
-: authenticates to this registry
+: 注册认证
 
 username
-: authenticates with this username
+: 用户名认证
 
 password
-: authenticates with this password
+: 密码认证
 
 repo
-: repository name for the image
+: 镜像仓库
 
 tags
-: repository tag for the image
+: 镜像仓库tag
 
 dockerfile
-: path to the dockerfile to be used, defaults to Dockerfile
-
-<!--
-auth
-: auth token for the registry
--->
+: 要使用的dockerfile的路径，默认为Dockerfile
 
 dry_run
-: boolean if the docker image should be pushed at the end
+: 是否在最后push docker镜像，布尔值
 
 purge
-: boolean if cleanup of the docker image should be done at the end
+: 是否在最后清除docker镜像，布尔值
 
 context
-: the context path to use, defaults to root of the git repo
+: 要使用的上下文路径，默认为git repo的根目录
 
 target
-: the build target to use, must be defined in the docker file
+: 要使用的构建target，必须在dockerfile中定义
 
 force_tag=false
-: replace existing matched image tags
+: 替换现有匹配的图像标记
 
 insecure=false
-: enable insecure communication to this registry
+: 允许不安全的连接
 
 mirror
-: use a mirror registry instead of pulling images directly from the central Hub
+: 使用镜像注册，而不是直接从hub pull镜像
 
 bip=false
-: use for pass bridge ip
+: 用于允许桥接ip通过
 
 custom_dns
-: set custom dns servers for the container
+: 为容器设置自定义DNS服务器
 
 custom_dns_search
-: docker daemon dns search domains
+: docker daemon DNS 搜索域
 
 storage_driver
-: supports `aufs`, `overlay` or `vfs` drivers
+: 支持 `aufs`, `overlay` 或者 `vfs` 类型存储
 
 storage_path
-: docker daemon storage path
+: docker daemon 存储路径
 
 build_args
-: pass custom arguments to docker build
+: 将自定义参数传递给docker build
 
 build_args_from_env
-: pass the envvars as custom arguments to docker build
+: 将envvars作为自定义参数传递给docker build
 
 auto_tag=false
-: generate tag names automatically based on git branch and git tag
+: 根据git branch和git tag自动生成tag
 
 auto_tag_suffix
-: generate tag names with this suffix
+: 使用此后缀生成tag
 
 debug, launch_debug
-: launch the docker daemon in verbose debug mode
+: 在verbose模式下启动docker daemon
 
 mtu
-: docker daemon custom mtu setting
+: docker daemon 自定义mtu设置
 
 ipv6
-: docker daemon IPv6 networking
+: docker daemon IPv6 
 
 experimental
-: docker daemon Experimental mode
+: docker daemon 实验模式
 
 daemon_off
-: don't start the docker daemon
+: 不启动 docker daemon
 
 cache_from
-: images to consider as cache sources
+: 要作为cache的镜像
 
 squash
-: squash the layers at build time
+: 构建时压缩层
 
 pull_image
-: force pull base image at build time
+: 构建时强制拉取基础镜像
 
 compress
-: compress the build context using gzip
+: 使用gzip压缩构建上下文
 
 custom_labels
-: additional k=v labels
+: 添加 k=v 标签
 
 label_schema
-: label-schema labels
+: label-schema 标签
 
 email
 : docker email
 
 no_cache
-: do not use cached intermediate containers
+: 不使用缓存的 intermediate containers
 
 add_host
-: additional host:IP mapping
+: 添加 host:IP 映射
 
 ## 更多用法
 

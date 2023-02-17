@@ -18,22 +18,22 @@ master:
 ## 参数含义
 
 username
-: Username to be used for the pypi publish.
+: 用于 pypi包发布的用户名
 
 password
-: Password for the pypi publish.
+: ：用于 pypi包发布的密码
 
 repository
-: The URL of the repository to be published to.
+: 要发布的仓库地址
 
 distributions
-: List of distribution types to publish.
+: 要发布的分法类型列表。
 
 setupfile
-: The relative path from the workspace root to the setup.py file to be used.
+: 工作空间根目录到要使用的setup.py文件的相对路径。
 
 skip_build
-: Skip the build and only upload pre-build files from `dist/*`
+: 跳过构建，只从 `dist/*` 上传预构建文件
 
 ## 更多用法
 

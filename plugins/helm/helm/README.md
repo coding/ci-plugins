@@ -20,46 +20,37 @@ master:
 
 ```
 
-## 参数含义
-
-### Parameter Reference
+## 参数
 
 namespace
-: namespace where you want to install your chart.
+: 要安装chart的namespace
 
 chart
-: chart that you want to install
+: 要安装的chart
 
 release
-: name used in the helm command to specify the release.
+: helm命令中用于指定release的名称.
 
 values
-: values injected in helm command. These are the values you want to overwrite.
+: 在helm命令中要注入的values，注入的值会被覆盖
 
 prefix
-: defines the prefix of all the secrets used in the plugin.
+: 定义插件中使用的所有的secret前缀
 
 tiller_ns
-: namespace where `tiller` will be installed.
+: 安装 `tiller` 的namespace
 
 debug
-: very verbose output.
+: 非常详细的输出
 
 skip_tls_verify
-: if you create your own SSL certificates,
- youi will need this flag to be true to avoid having connectivity issues.
+: 如果创建自己的SSL证书，需要此标志为真，以避免出现连接问题
 
 api_server
 : kubernetes api server
 
 kubernetes_token
-: kubernetes token to connect to the api server
-
-### Env Reference
-
-: API_SERVER url to connect to the Kubernetes api server
-
-: KUBERNETES_TOKEN Kubernetes token used to connect to the api server.
+: 用于连接api server的kubernetes token
 
 ## 更多用法
 

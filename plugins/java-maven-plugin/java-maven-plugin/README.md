@@ -15,40 +15,40 @@ master:
 ## 参数含义
 
 context_dir
-: The context directory to execute the maven goals.
+: 执行 Maven 目标的上下文目录。
 
 goals
-: An array of maven goals to run.Defaults: `-DskipTests clean install`.
+: 要运行的一系列 Maven 目标。默认值：`-DskipTests clean install`
 
 maven_modules
-: An array of maven modules to be built incase of a multi module maven project.
+: 在多模块 maven 项目的情况下要构建的 maven 模块数组
 
 maven_mirror_url
-: The Maven repository mirror url.
+: Maven 仓库镜像地址
 
 server_user
-: The username for the maven repository manager server.
+: maven 存储库管理器服务器的用户名
 
 server_password
-: The password for the maven repository manager server.
+: maven 存储库管理器服务器的密码
 
 proxy_user
-: The username for the proxy server.
+: 代理服务器的用户名
 
 proxy_password
-: The password for the proxy server.
+: 代理服务器的密码
 
 proxy_port
-: Port number for the proxy server.
+: 代理服务器的端口号
 
 proxy_host
-: Proxy server Host.
+: 代理服务器主机
 
 proxy_non_proxy_hosts
-: An array of non proxy server hosts.
+: 一组非代理服务器主机
 
 proxy_protocol
-: Protocol for the proxy ie http or https.
+: 代理协议，即 http 或 https
 
 ## 更多用法
 

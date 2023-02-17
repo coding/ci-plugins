@@ -22,22 +22,22 @@ master:
 ## 参数含义
 
 archive
-: location of the docker image archive
+: docker镜像archive位置
 
 registry
-: authenticates to this registry (default: docker.io)
+: 对此注册表进行身份验证（默认值：docker.io）
 
 username
-: authenticates with this username
+: 使用此用户名进行身份验证
 
 password
-: authenticates with this password
+: 使用此密码进行身份验证
 
 repo
-: repository name for the image
+: 镜像仓库名
 
 debug
-: enable verbose logging
+: 启用详细日志记录
 
 ## 更多用法
 

@@ -22,16 +22,16 @@ master:
 
 ## 参数含义
 
-* `corpid` - The corpid for authorization
-* `corp_secret` - The corp secret for authorization
-* `agent_id` - The agent id to send the message
-* `to_party` - The party ids to send the message
-* `to_user` - The user ids to send the message to
-* `to_tag` - The tag ids to send the message to
-* `title` - Title of the card
-* `description` - Text description of the card
-* `msg_url` - The agent id to send the message
-* `btntxt` - The text for the button on the card
+* `corpid` - 授权的 corpid
+* `corp_secret` - 授权的corp secret
+* `agent_id` - 发送消息的代理 ID
+* `to_party` - 发送消息的组织 ID
+* `to_user` - 要将消息发送到的用户 ID
+* `to_tag` - 要将消息发送到的tag ID
+* `title` - 消息的标题
+* `description` - 消息的文字描述
+* `msg_url` - 发送消息的代理 ID
+* `btntxt` - 消息按钮上的文本
 
 ## 更多用法
 

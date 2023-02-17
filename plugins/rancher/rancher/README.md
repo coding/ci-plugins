@@ -21,34 +21,34 @@ master:
 ## 参数含义
 
 url
-: rancher server host url
+: rancher server 主机地址
 
 access_key
-: rancher environment access key
+: rancher 环境访问密钥
 
 secret_key
-: rancher environment secret key
+: rancher 环境密钥
 
 service
-: rancher service on that environment to upgrade
+: 环境要升级的rancher service
 
 start_first
-: start new container before stopping old one, default to true
+: 在停止旧容器之前启动新容器，默认为 true
 
 confirm
-: auto confirm the service upgrade if successful, defaults to false
+: 服务升级成功后自动确认，默认为false
 
 timeout
-: the maximum wait time in seconds for the service to upgrade, default to 30
+: 服务升级的最大等待时间，以秒为单位，默认为 30
 
 docker_image
-: docker image to use to upgrade the environment
+: 用于升级环境的docker镜像
 
 interval_millis
-: interval in milliseconds between upgrades of the containers
+: 容器升级之间的间隔（以毫秒为单位）
 
 batch_size
-: batch size for the service upgrade
+: 服务升级的粒度大小
 
 ## 更多用法
 

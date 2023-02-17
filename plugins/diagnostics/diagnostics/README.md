@@ -18,9 +18,9 @@ master:
         - echo "end of test"
 ```
 
-## 参数含义
+## 参数
 
-Installed tools:
+已安装的工具:
 
 - ping
 - traceroute

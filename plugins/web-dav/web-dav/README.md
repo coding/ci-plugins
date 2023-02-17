@@ -19,21 +19,11 @@ master:
 
 ## 参数含义
 
-### Secret Reference
-
-webdav_username, username
-: webdav server username
-
-webdav_password, password
-: webdav server password
-
-### Parameter Reference
-
 file
-: location of the file to upload
+: 上传文件的位置
 
 destination
-: directory to copy the file to
+: 要复制的文件的文件夹
 
 ## 更多用法
 

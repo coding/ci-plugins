@@ -22,9 +22,9 @@ master:
         scan_image: python:2.7
 ```
 
-## 参数含义
+## 参数
 
-### Env Reference
+### 环境变量
 
   DOCKER_USERNAME
   : 通过环境变量传递`username`
@@ -38,22 +38,17 @@ master:
   CLAIR_CA_CERT
   : 通过环境变量传递 `ca_cert`
 
-### Parameter Reference
+### 参数
 
-  url
-  : Clair server URL
+* url：Clair服务器URL
 
-  username
-  : Docker Registry username to download the `scan_image` from
+* username：Docker Registry用户名，用于下载“scan_image”
 
-  password
-  : Docker Registry password to download the `scan_image` from
+* password：Docker Registry密码，用于下载“scan_image”
 
-  scan_image
-  : The docker image to scan.  Supports Docker Hub or private repos.
+* scan_image：要扫描的docker图像。支持Docker Hub或私有仓库
 
-  ca_cert
-  : The CA Cert to verify https with
+* ca_cert：用于验证https的CA证书
 
 ## 更多用法
 

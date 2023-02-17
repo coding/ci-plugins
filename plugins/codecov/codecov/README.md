@@ -14,12 +14,15 @@ master:
         token: your-codacy-token
 ```
 
-## 参数含义
+## 参数
 
-- `token`: set the private repository token. Required.
-- `files`: list of target files to upload. Optional.
-- `flags`: flag the upload to group coverage metrics. Optional.
-- `debug`: debug mode, defaults to `false`.
+* `token`：设置专用存储库令牌。必修的。
+
+* `files`：要上载的目标文件列表。可选择的
+
+* `flags`：标记上载到组的覆盖率度量。可选择的
+
+* `debug`：调试模式，默认为`false`。
 
 ## 更多用法
 

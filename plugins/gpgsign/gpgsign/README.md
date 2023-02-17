@@ -18,25 +18,25 @@ master:
 
 ```
 
-## 参数含义
+## 参数
 
 key
-: Private GnuPG key, optionally base64 encoded
+: 私有GnuPG密钥，可选base64编码
 
 passphrase
-: Passphrase to unlock private key
+: 用于解锁私钥的passphrase
 
 detach_sign
-: Generate a detach-sign signature
+: 生成 detach-sign 签名
 
 clear_sign
-: Generate a clear-sign signature
+: 生成 clear-sign 签名
 
 files, file
-: List of globs to match files
+: 要匹配文件的globs列表
 
 excludes, exclude
-: List of patterns to exclude files
+: 要排除文件的pattern列表
 
 ## 更多用法
 

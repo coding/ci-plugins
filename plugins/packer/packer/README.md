@@ -18,40 +18,40 @@ master:
 ## 参数含义
 
 actions
-: a list of actions to have packer perform
+: packer执行的action列表
 
 vars
-: a map of variables to pass to the Packer `build` commands.
+: 要传递给 Packer `build` 命令的变量映射。
 
 var_files
-: a list of var files to use. Each value is passed as -var-file= `value`
+: 要使用的 var 文件列表，每个值都以 -var-file= `value` 传递
 
 except
-: validate or build all builds other than these
+: 验证或构建除except之外的所有构建
 
 only
-: validate or build only the specified builds
+: 仅验证或构建指定构建
 
 template
-: A json file will execute multiple builds in parallel.
+: json 文件，并行执行多个构建
 
 syntax_only
-: Only check syntax. Do not verify config of the template, defaults to `false`
+: 只检查语法，默认为`false`
 
 color
-: Disable color output (on by default), defaults to `false`
+: 禁用颜色输出（默认开启），默认为 `false`
 
 debug
-: Debug mode enabled for builds, defaults to `false`
+: 为构建启用调试模式，默认为 `false`
 
 parallel
-: Disable parallelization (on by default), defaults to `false`
+: 禁止并发执行，默认为 `false`
 
 force
-: Force a build to continue if artifacts exist, deletes existing artifacts.
+: 如果制品存在，强制执行构建并删除之前的制品
 
 readable
-: Machine-readable output, defaults to `false`
+: Machine-readable 输出，默认为 `false`
 
 ## 更多用法
 

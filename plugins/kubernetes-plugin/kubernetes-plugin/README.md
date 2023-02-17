@@ -30,31 +30,31 @@ master:
 ## 参数含义
 
 kubernetes_server
-: The address and port of the Kubernetes API server.
+: Kubernetes API服务器的地址和端口。
 
 kubernetes_token
-: Token from ServiceAccount for authentication to the API server.
+: 来自 ServiceAccount 的令牌，用于 API 服务器的身份验证
 
 kubernetes_ca_crt
-: Certificate from ServiceAccount for authentication to the API server.
+: 来自 ServiceAccount 的证书，用于向 API 服务器进行身份验证
 
 kubernetes_skip_tls
-: If true, the server's certificate will not be checked for validity.
+: 如果为 true，则不会检查服务器证书的有效性
 
 init_templates
-: Path to Kubernetes Resource yaml based definition file.
+: 基于 Kubernetes 资源 yaml 的定义文件的路径
 
 templates
-: Path to Kubernetes Resource yaml based definition file.
+: 基于 Kubernetes 资源 yaml 的定义文件的路径
 
 config_files
-: Config file paths for automatic creation/update of ConfigMap.
+: 用于自动创建/更新 ConfigMap 的配置文件路径。
 
 namespace
-: Default namespace to use when namespace is not set.
+: 未设置命名空间时使用的默认命名空间。
 
 debug
-: Used to enable debug level logging.
+: 用于启用调试级别日志记录。
 
 `*`
 : Other parameters will be made available for interpolation.
