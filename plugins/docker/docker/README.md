@@ -92,7 +92,7 @@ mtu
 : docker daemon 自定义mtu设置
 
 ipv6
-: docker daemon IPv6 
+: docker daemon IPv6
 
 experimental
 : docker daemon 实验模式

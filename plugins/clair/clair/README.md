@@ -22,8 +22,6 @@ master:
         scan_image: python:2.7
 ```
 
-## 参数
-
 ### 环境变量
 
   DOCKER_USERNAME
