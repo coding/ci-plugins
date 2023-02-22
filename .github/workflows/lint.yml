@@ -1,7 +1,7 @@
 name: lint
 
 on:
-  pull_request_target:
+  pull_request:
     branches:
     - main
 
@@ -9,11 +9,11 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout 
+    - name: checkout
       uses: actions/checkout@v3
-    - name: plugin-lint 
-      uses: docker://codingci/plugin-lint:latest      
-    - name: markdown-lint 
+    - name: plugin-lint
+      uses: docker://codingci/plugin-lint:latest
+    - name: markdown-lint
       uses: docker://tencentcom/markdown-lint:latest
     - name: notify
       uses: docker://tencentcom/wecom-message:latest
@@ -22,7 +22,7 @@ jobs:
         PLUGIN_CONTENT: |
           [https://github.com/${{ github.repository }}/pulls](https://github.com/${{ github.repository }}/pulls)
 
-          
+
           走查代码啦~ for <@${{ github.actor }}>
 
 
