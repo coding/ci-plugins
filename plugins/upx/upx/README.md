@@ -1,6 +1,6 @@
 # UPX
 
-UPX压缩插件
+UPX 压缩插件。
 
 ## 在 Coding-CI 上使用
 
@@ -19,14 +19,14 @@ master:
 ## 参数含义
 
 level
-: 压缩级别，取值在1到9之间，越大越好
+: 压缩级别，取值在1到9之间，越大越好。
 
 original_file
-: 待处理的原始文件
+: 待处理的原始文件。
 
 save_file
-: 保存压缩文件的路径和文件名
+: 保存压缩文件的路径和文件名。
 
 ## 更多用法
 
-更多用法参考：[cnbattle/drone-upx](https://github.com/cnbattle/drone-upx)
+更多用法参考：[cnbattle/drone-upx](https://github.com/cnbattle/drone-upx)。

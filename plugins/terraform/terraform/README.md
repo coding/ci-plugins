@@ -1,6 +1,6 @@
 # Terraform
 
-执行Terraform plan和apply
+执行 Terraform `plan` 和 `apply`。
 
 ## 在 Coding-CI 上使用
 
@@ -20,38 +20,38 @@ master:
 ## 参数含义
 
 plan
-: 如果为`true`，则生成一个plan，但是不应用
+: 如果为`true`，则生成一个 plan，但是不应用。
 
 remote
-: 包含 Terraform 远程状态跟踪的配置
+: 包含 Terraform 远程状态跟踪的配置。
 
 remote.backend
-: 要使用的 Terraform 远程状态后端
+: 要使用的 Terraform 远程状态后端。
 
 remote.config
-: 远程状态后端的配置参数映射
+: 远程状态后端的配置参数映射。
 
 vars
-: 要传递给 Terraform `plan` 和 `apply` 命令的变量映射
+: 要传递给 Terraform `plan` 和 `apply` 命令的变量映射。
 
 secrets
-: 要传递给 Terraform `plan` 和 `apply` 命令的变量映射
+: 要传递给 Terraform `plan` 和 `apply` 命令的变量映射。
 
 ca_cert
-: 添加到环境中的ca_cert
+: 添加到环境中的 ca_cert。
 
 sensitive
-: 是否将Terraform命令输出，默认为`false`
+: 是否将 Terraform 命令输出，默认为`false`。
 
 role_arn_to_assume
-: 在运行 terraform 命令之前设定的角色
+: 在运行 terraform 命令之前设定的角色。
 
 root_dir
-: terraform 文件所在的根目录
+: Terraform 文件所在的根目录。
 
 parallelism
-: Terraform 并发数
+: Terraform 并发数。
 
 ## 更多用法
 
-更多用法参考：[jmccann/drone-terraform](https://github.com/jmccann/drone-terraform)
+更多用法参考：[jmccann/drone-terraform](https://github.com/jmccann/drone-terraform)。

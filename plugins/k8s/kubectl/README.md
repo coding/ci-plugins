@@ -53,4 +53,4 @@ users:
 
 ## 更多用法
 
-更多用法参考：[kubernetes/kubectl](https://github.com/kubernetes/kubectl)
+更多用法参考：[kubernetes/kubectl](https://github.com/kubernetes/kubectl)。

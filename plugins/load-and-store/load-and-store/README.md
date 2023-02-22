@@ -1,6 +1,6 @@
 # Load and store
 
-将镜像发布到Docker仓库的插件
+将镜像发布到 Docker 仓库的插件。
 
 ## 在 Coding-CI 上使用
 
@@ -22,23 +22,23 @@ master:
 ## 参数含义
 
 archive
-: docker镜像archive位置
+: docker 镜像 archive 位置。
 
 registry
-: 对此注册表进行身份验证（默认值：docker.io）
+: 对此注册表进行身份验证（默认值：docker.io）。
 
 username
-: 使用此用户名进行身份验证
+: 使用此用户名进行身份验证。
 
 password
-: 使用此密码进行身份验证
+: 使用此密码进行身份验证。
 
 repo
-: 镜像仓库名
+: 镜像仓库名。
 
 debug
-: 启用详细日志记录
+: 启用详细日志记录。
 
 ## 更多用法
 
-更多用法参考：[allgreed/drone-load-and-store](https://github.com/allgreed/drone-load-and-store)
+更多用法参考：[allgreed/drone-load-and-store](https://github.com/allgreed/drone-load-and-store)。

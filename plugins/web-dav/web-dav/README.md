@@ -1,6 +1,6 @@
 # WebDAV
 
-推送构建制品到任何WebDAV服务器
+推送构建制品到任何 WebDAV 服务器。
 
 ## 在 Coding-CI 上使用
 
@@ -20,11 +20,11 @@ master:
 ## 参数含义
 
 file
-: 上传文件的位置
+: 上传文件的位置。
 
 destination
-: 要复制的文件的文件夹
+: 要复制的文件的文件夹。
 
 ## 更多用法
 
-更多用法参考：[vividboarder/drone-webdav](https://github.com/vividboarder/drone-webdav)
+更多用法参考：[vividboarder/drone-webdav](https://github.com/vividboarder/drone-webdav)。

@@ -1,6 +1,6 @@
 # Jenkins
 
-触发Jenkins Jobs的插件
+触发 Jenkins Jobs 的插件。
 
 ## 在 Coding-CI 上使用
 
@@ -20,17 +20,17 @@ master:
 ## 参数含义
 
 url
-: jenkins server base url.
+: jenkins 服务地址。
 
 user
-: jenkins user account
+: jenkins 用户账号。
 
 token
-: jenkins user token
+: jenkins 用户 token。
 
 job
-: jenkins job name
+: jenkins job 名称。
 
 ## 更多用法
 
-更多用法参考：[appleboy/drone-jenkins](https://github.com/appleboy/drone-jenkins)
+更多用法参考：[appleboy/drone-jenkins](https://github.com/appleboy/drone-jenkins)。

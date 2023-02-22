@@ -1,8 +1,16 @@
 # diagnostics
 
-用来诊断构建中问题的带cli工具的插件
+一个 cli 工具插件，用于诊断构建过程中出现的问题。
 
 ## 在 Coding-CI 上使用
+
+插件内置了一些诊断工具，可以用命令行来调用它们。
+
+内置的工具：
+
+- ping
+- traceroute
+- dig
 
 ```yml
 master:
@@ -18,14 +26,7 @@ master:
         - echo "end of test"
 ```
 
-## 参数
-
-已安装的工具:
-
-- ping
-- traceroute
-- dig
-
 ## 更多用法
 
-更多用法参考：[drone-plugins/drone-diagnostics](https://github.com/drone-plugins/drone-diagnostics)
+更多用法参考：
+[drone-plugins/drone-diagnostics](https://github.com/drone-plugins/drone-diagnostics)。

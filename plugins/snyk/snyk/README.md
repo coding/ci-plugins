@@ -1,6 +1,6 @@
 # Snyk
 
-使用snyk扫描容器镜像漏洞
+使用 snyk 扫描容器镜像漏洞。
 
 ## 在 Coding-CI 上使用
 
@@ -27,7 +27,6 @@ USERNAME // Docker registry username
 PASSWORD // Docker registry password
 EMAIL    // Docker registry email
 CONFIG   // Docker Auth Config
-REGISTRY            // Docker registry
 MIRROR              // Docker registry mirror
 INSECURE            // Docker daemon enable insecure registries
 STORAGE_DRIVER      // Docker daemon storage driver
@@ -44,4 +43,4 @@ EXPERIMENTAL        // Docker daemon enable experimental mode
 
 ## 更多用法
 
-更多用法参考：[drone-plugins/drone-snyk](https://github.com/drone-plugins/drone-snyk)
+更多用法参考：[drone-plugins/drone-snyk](https://github.com/drone-plugins/drone-snyk)。

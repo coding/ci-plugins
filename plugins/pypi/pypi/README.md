@@ -1,6 +1,6 @@
 # PyPI
 
-发布python包
+发布 python 包。
 
 ## 在 Coding-CI 上使用
 
@@ -18,23 +18,23 @@ master:
 ## 参数含义
 
 username
-: 用于 pypi包发布的用户名
+: 用于 pypi 包发布的用户名。
 
 password
-: ：用于 pypi包发布的密码
+: ：用于 pypi 包发布的密码。
 
 repository
-: 要发布的仓库地址
+: 要发布的仓库地址。
 
 distributions
 : 要发布的分法类型列表。
 
 setupfile
-: 工作空间根目录到要使用的setup.py文件的相对路径。
+: 工作空间根目录到要使用的 setup.py 文件的相对路径。
 
 skip_build
-: 跳过构建，只从 `dist/*` 上传预构建文件
+: 跳过构建，只从 `dist/*` 上传预构建文件。
 
 ## 更多用法
 
-更多用法参考：[drone-plugins/drone-pypi](https://github.com/drone-plugins/drone-pypi)
+更多用法参考：[drone-plugins/drone-pypi](https://github.com/drone-plugins/drone-pypi)。

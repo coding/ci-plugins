@@ -1,6 +1,6 @@
 # grafana-annotation
 
-在Grafana中创建注解的插件
+在 Grafana 中创建注解的插件。
 
 ## 在 Coding-CI 上使用
 
@@ -24,16 +24,16 @@ master:
 ## 参数含义
 
 api_key
-: api key
+: api key。
 
 tags
-: tag 列表
+: tag 列表。
 
 text
-: 描述
+: 描述。
 
 url
-: 服务器 url
+: 服务器 url。
 
 ## 更多用法
 

@@ -1,6 +1,6 @@
 # markdownlint-cli2
 
-linting Markdown files with the markdownlint.
+linting Markdown files with the markdownlint。
 
 ## 在 Docker 上使用
 

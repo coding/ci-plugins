@@ -1,6 +1,6 @@
 # Clair
 
-通过Clair扫描docker镜像插件
+通过 Clair 扫描 docker 镜像插件。
 
 ## 在 Coding-CI 上使用
 
@@ -25,29 +25,29 @@ master:
 ### 环境变量
 
   DOCKER_USERNAME
-  : 通过环境变量传递`username`
+  : 通过环境变量传递 `username`。
 
   DOCKER_PASSWORD
-  : 通过环境变量传递 `password`
+  : 通过环境变量传递 `password`。
 
   CLAIR_URL
-  : 通过环境变量传递 `url`
+  : 通过环境变量传递 `url`。
 
   CLAIR_CA_CERT
-  : 通过环境变量传递 `ca_cert`
+  : 通过环境变量传递 `ca_cert`。
 
 ### 参数
 
-* url：Clair服务器URL
+* url：Clair 服务器 URL。
 
-* username：Docker Registry用户名，用于下载“scan_image”
+* username：Docker Registry用户名，用于下载 `scan_image`。
 
-* password：Docker Registry密码，用于下载“scan_image”
+* password：Docker Registry密码，用于下载 `scan_image`。
 
-* scan_image：要扫描的docker图像。支持Docker Hub或私有仓库
+* scan_image：要扫描的 docker 图像。支持 Docker Hub 或私有仓库。
 
-* ca_cert：用于验证https的CA证书
+* ca_cert：用于验证 https 的 CA 证书。
 
 ## 更多用法
 
-更多用法参考：[jmccann/drone-clair](https://github.com/jmccann/drone-clair)
+更多用法参考：[jmccann/drone-clair](https://github.com/jmccann/drone-clair)。

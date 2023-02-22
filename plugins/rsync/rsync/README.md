@@ -1,6 +1,6 @@
 # rsync
 
- rsync 同步文件工具
+ rsync 同步文件工具。
 
 ## 在 Docker 上使用
 
@@ -26,3 +26,7 @@ master:
         script: echo 'script'
         args: args
 ```
+
+## 更多用法
+
+更多用法参考：[Drillster/drone-rsync](https://github.com/Drillster/drone-rsync)。
