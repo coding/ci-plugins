@@ -1,20 +1,19 @@
-name: lint
+name: After receive PR
 
+# access to secrets
 on:
-  pull_request:
-    branches:
-    - main
+  workflow_run:
+    workflows: ["Receive PR"]
+    types:
+      - completed
 
 jobs:
-  lint:
+  notify:
     runs-on: ubuntu-latest
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
     steps:
-    - name: checkout
-      uses: actions/checkout@v3
-    - name: plugin-lint
-      uses: docker://codingci/plugin-lint:latest
-    - name: markdown-lint
-      uses: docker://tencentcom/markdown-lint:latest
     - name: notify
       uses: docker://tencentcom/wecom-message:latest
       env:
@@ -24,5 +23,3 @@ jobs:
 
 
           走查代码啦~ for <@${{ github.actor }}>
-
-
