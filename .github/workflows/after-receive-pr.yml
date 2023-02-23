@@ -14,12 +14,25 @@ jobs:
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success'
     steps:
+    - name: Download workflow artifact
+      uses: dawidd6/action-download-artifact@v2.11.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        workflow: receive-pr.yml
+        run_id: ${{ github.event.workflow_run.id }}
+    - name: Read the pr_num file
+      id: pr_num_reader
+      uses: juliangruber/read-file-action@v1.0.0
+      with:
+        path: ./pr_num/pr_num.txt
+    - name: Set pr link
+      id: pr_link_generator
+      run: echo "LINK=https://github.com/${{ github.repository }}/pulls/${{ steps.pr_num_reader.outputs.content }}" >> $GITHUB_OUTPUT
+
     - name: notify
       uses: docker://tencentcom/wecom-message:latest
       env:
         PLUGIN_ROBOT: ${{ secrets.WEWORK_BOT }}
         PLUGIN_CONTENT: |
-          [https://github.com/${{ github.repository }}/pulls](https://github.com/${{ github.repository }}/pulls)
-
-
-          走查代码啦~ for <@${{ github.actor }}>
+          [${{ steps.pr_link_generator.outputs.LINK }}](${{ steps.pr_link_generator.outputs.LINK }})
+          走查代码啦~ for ${{ github.actor }}
