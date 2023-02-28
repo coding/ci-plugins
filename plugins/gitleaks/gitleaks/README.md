@@ -1,6 +1,6 @@
 # gitleaks
 
-检测git库中敏感信息的插件
+检测git库中敏感信息的插件。
 
 ## 在 Coding-CI 上使用
 
@@ -19,4 +19,4 @@ master:
 
 ## 更多用法
 
-更多用法参考：[drone/drone-gitleaks](https://github.com/drone/drone-gitleaks)
+更多用法参考：[drone/drone-gitleaks](https://github.com/drone/drone-gitleaks)。

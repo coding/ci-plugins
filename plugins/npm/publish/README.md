@@ -34,7 +34,7 @@ master:
         fail_on_version_conflict: true
 ```
 
-`package.json` 文件需要声明相同的 `registry`，以通过 npm 校验
+`package.json` 文件需要声明相同的 `registry`，以通过 npm 校验。
 
 ```json
 {

@@ -1,6 +1,6 @@
 # gpgsign
 
-通过GunPG给制品加密的插件
+通过 GunPG 给制品加密的插件。
 
 ## 在 Coding-CI 上使用
 
@@ -21,22 +21,22 @@ master:
 ## 参数
 
 key
-: 私有GnuPG密钥，可选base64编码
+: 私有GnuPG密钥，可选base64编码。
 
 passphrase
-: 用于解锁私钥的passphrase
+: 用于解锁私钥的passphrase。
 
 detach_sign
-: 生成 detach-sign 签名
+: 生成 detach-sign 签名。
 
 clear_sign
-: 生成 clear-sign 签名
+: 生成 clear-sign 签名。
 
 files, file
-: 要匹配文件的globs列表
+: 要匹配文件的globs列表。
 
 excludes, exclude
-: 要排除文件的pattern列表
+: 要排除文件的pattern列表。
 
 ## 更多用法
 

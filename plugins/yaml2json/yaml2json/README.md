@@ -1,6 +1,6 @@
 # json2yaml
 
-将yaml转换为json格式
+将 yaml 转换为 json 格式。
 
 ## 在 Coding-CI 上使用
 

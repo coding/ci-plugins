@@ -1,6 +1,6 @@
 # Datadog
 
-发送events和metrics到Datadog
+发送 events 和 metrics 到 Datadog
 
 ## 在 Coding-CI 上使用
 
@@ -17,20 +17,20 @@ master:
           - type: "count"
             name: "masci.pipelines.count"
             value: 1.0
-            tags: ["project:${DRONE_REPO_NAME}", "branch:${DRONE_BRANCH}"]
+            tags: ["project:${CODING_PROJECT_NAME}", "branch:${CODING_BRANCH}"]
 ```
 
 ## 参数
 
-* `api_key`：用于发送metrics和events的Datadog API密钥。
+* `api_key`：用于发送 metrics 和 events 的 Datadog API密钥
 
-* `dry_run`：当设置为`true`时，插件只计算metrics和events，而不计算向Datadog入口发送任何信息。
+* `dry_run`：当设置为`true`时，插件只计算 metrics 和 events，而不计算向 Datadog 入口发送任何信息
 
-* `metrics`：要发送到Datadog的度量列表。
+* `metrics`：要发送到 Datadog 的度量列表
 
-* `events`：要发送到Datadog的事件列表。事件必须具有`title`和`text`；
+* `events`：要发送到 Datadog 的事件列表。事件必须具有 `title` 和 `text`
 
-* `alert_type`默认为`info`。
+* `alert_type`默认为`info`
 
 ## 更多用法
 

@@ -1,6 +1,6 @@
 # Newrelic Deployment
 
-将部署报告记录到dashboard
+将部署报告记录到 dashboard。
 
 ## 在 Coding-CI 上使用
 
@@ -18,11 +18,11 @@ master:
 ## 参数含义
 
 app_id
-: Newrelic APP ID
+: Newrelic APP ID。
 
 api_key
-: Newrelic API Key，在生成前验证配置文件
+: Newrelic API Key，在生成前验证配置文件。
 
 ## 更多用法
 
-更多用法参考：[cityfurniture/newrelic-deployment](https://github.com/cityfurniture/newrelic-deployment)
+更多用法参考：[cityfurniture/newrelic-deployment](https://github.com/cityfurniture/newrelic-deployment)。
