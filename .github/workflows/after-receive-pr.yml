@@ -27,7 +27,7 @@ jobs:
         path: ./pr_num/pr_num.txt
     - name: Set pr link
       id: pr_link_generator
-      run: echo "LINK=https://github.com/${{ github.repository }}/pulls/${{ steps.pr_num_reader.outputs.content }}" >> $GITHUB_OUTPUT
+      run: echo "LINK=https://github.com/${{ github.repository }}/pull/${{ steps.pr_num_reader.outputs.content }}" >> $GITHUB_OUTPUT
 
     - name: notify
       uses: docker://tencentcom/wecom-message:latest
