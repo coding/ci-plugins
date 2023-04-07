@@ -1,6 +1,6 @@
 # Ansible
 
-Ansible可以帮助您展示价值，连接团队，并为您的组织带来效率。
+Ansible 可以向指定的IP执行任务，完成对 VM 集群的的自动化管理。
 
 ## 在 Docker 上使用
 
@@ -27,3 +27,7 @@ master:
         playbook: deployment/playbook.yml
         inventory: deployment/hosts.yml
 ```
+
+## 更多用法
+
+参见 [ansible/ansible](https://github.com/ansible/ansible)
