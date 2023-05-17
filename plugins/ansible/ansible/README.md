@@ -17,15 +17,67 @@ docker run --rm \
 ## 在 Coding-CI 上使用
 
 ```yml
+# .coding.yml
 master:
   push:
   - stages:
-    - name: use 
+    - name: use ansible
       image: plugins/ansible
       settings:
         private_key: $PRIVATE_KEY
-        playbook: deployment/playbook.yml
-        inventory: deployment/hosts.yml
+        inventory: hosts.conf
+        playbook: playbook.yml
+```
+
+```conf
+# hosts.conf
+[custom]
+127.0.0.1
+127.0.0.2
+127.0.0.3
+```
+
+```yml
+# playbook.yml
+---
+- hosts: 
+    - custom
+  remote_user: root
+  vars:
+    ansible_ssh_port: 36000
+  tasks:
+    
+    # 执行脚本
+    - name: hello
+      shell: echo hello
+    
+    # 复制文件
+    - name: copy
+      copy:
+        src: /dir/from/
+        dest: /dir/to/
+        owner: root
+        group: root
+        mode: 0644
+```
+
+## 常见问题
+
+### RSA 加密算法提示不支持时
+
+建议使用 3.0 版本，即：`plugins/ansible:3`，示例如下
+
+```yml
+# .coding.yml
+master:
+  push:
+  - stages:
+    - name: use ansible
+      image: plugins/ansible:3
+      settings:
+        private_key: $PRIVATE_KEY
+        inventory: hosts.conf
+        playbook: playbook.yml
 ```
 
 ## 更多用法
