@@ -17,7 +17,6 @@ docker run --rm \
 ## 在 Coding-CI 上使用
 
 ```yml
-# .coding.yml
 master:
   push:
   - stages:
@@ -68,7 +67,6 @@ master:
 建议使用 3.0 版本，即：`plugins/ansible:3`，示例如下
 
 ```yml
-# .coding.yml
 master:
   push:
   - stages:
