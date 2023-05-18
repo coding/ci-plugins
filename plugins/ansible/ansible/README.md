@@ -62,9 +62,21 @@ master:
 
 ## 常见问题
 
+### SSH-KEY 生成
+
+使用 椭圆曲线(推荐) 算法生成密钥对
+
+```shell
+ssh-keygen -t ed25519 -f ./ssh-key
+```
+
+公钥内容追加到目标机器的 `/root/.ssh/authorized_keys` 文件中
+
 ### RSA 加密算法提示不支持时
 
-建议使用 3.0 版本，即：`plugins/ansible:3`，示例如下
+因为最新版本的 openssl 已弱化对 `RSA` 的支持，遇到不支持的情况时，可降级为 3.0 版本解决，
+
+即：`plugins/ansible:3`，示例如下
 
 ```yml
 master:
@@ -76,6 +88,33 @@ master:
         private_key: $PRIVATE_KEY
         inventory: hosts.conf
         playbook: playbook.yml
+```
+
+## 隐藏明文凭证
+
+可通过 imports 动态注入凭证，达到隐藏明文凭证的目标
+
+```yml
+master:
+  push:
+  - stages:
+    - name: use ansible
+      image: plugins/ansible
+      imports: https://your-git.com/xxx/xxx/ssh-key.yml
+      settings:
+        private_key: $PRIVATE_KEY
+        inventory: hosts.conf
+        playbook: playbook.yml
+```
+
+```yml
+#ssh-key.yml
+PRIVATE_KEY: |
+  xxxxxx
+  xxxxxx
+PUBLIC_KEY: |
+  xxxxxx
+  xxxxxx
 ```
 
 ## 更多用法
