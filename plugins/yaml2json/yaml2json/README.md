@@ -1,4 +1,4 @@
-# json2yaml
+# yaml2json
 
 将 yaml 转换为 json 格式。
 
@@ -8,11 +8,23 @@
 master:
   push:
   - stages:
-    - name: json2yaml
-      image: simplealpine/json2yaml
+    - name: yaml2json
+      image: simplealpine/yaml2json
       args:
-          xxx.yaml
+          data.yaml
 
+```
+
+data.yaml:
+
+```yml
+people: 
+    - 
+      name: yyy
+      age: 18
+    - 
+      name: zzz
+      age: 19
 ```
 
 ## 参数含义
@@ -21,4 +33,5 @@ args: yaml文件
 
 ## 更多用法
 
-无
+在docker中使用：
+docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) simplealpine/yaml2json test.yaml
