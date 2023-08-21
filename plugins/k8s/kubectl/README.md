@@ -15,7 +15,7 @@ master:
         imports: https://xxx/kube-config
         image: bitnami/kubectl
         commands: |
-          echo -n $KUBECF > ~/.kube/config
+          echo  "$KUBECF" > ~/.kube/config
           kubectl set image $POD_TYPE/$POD $CONTAINER=$IMAGE:$TAG -n $NS
  ```
 
@@ -29,8 +29,27 @@ master:
 
 ## kube-config
 
-```json
-KUBECF={"apiVersion":"v1","clusters":[{"cluster":{"certificate-authority-data":"xxx","server":"https://123.20.11.21:443/"},"name":"cls-1m6x0bbo"}],"contexts":[{"context":{"cluster":"cls-1m6x0bbo","user":"100014140xxx"},"name":"cls-1m6x0bbo-100014140xxx-context-default"}],"current-context":"cls-1m6x0bbo-100014140xxx-context-default","kind":"Config","preferences":{},"users":[{"name":"100014140xxx","user":{"client-certificate-data":"xxx","client-key-data":"xxx"}}]}
+```yml
+KUBECF: |
+  apiVersion: v1 
+  clusters: 
+    - cluster:
+        certificate-authority-data: xxx 
+        server: 'https://123.207.112.200:443/'
+      name: cls-xxx
+  contexts:
+    - context:
+        cluster: cls-1m6x0bbo
+        user: '1000141405xx'
+      name: cls-1m6x0bbo-100014140531-context-default
+  current-context: cls-1m6x0bbo-100014140531-context-default
+  kind: Config
+  preferences: {}
+  users:
+    - name: '1000141405xx'
+      user:
+        client-certificate-data: xxx 
+        client-key-data: xxx
 ```
 
 `kube-config` 的具体内容，可以从腾讯云控制台，集群「基本信息」中的「集群 APIServer 信息」中获取。
