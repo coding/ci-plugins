@@ -11,12 +11,9 @@ master:
     - name: send wecat notifications
       image: lizheming/drone-wechat
       settings:
-        corpid: 
-          from_secret: wechat_corpid
-        corp_secret:
-          from_secret: wechat_corp_secret
-        agent_id: 
-          from_secret: agent_id
+        corpid: wechat_corpid
+        corp_secret: wechat_corp_secret
+        agent_id: agent_id 
         to_user: 111
         to_party: 112
         to_tag: ${CODING_REPO_NAME}
