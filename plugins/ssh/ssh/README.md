@@ -15,8 +15,7 @@ master:
           - example1.com
           - example2.com
         username: ubuntu
-        password:
-          from_secret: ssh_password
+        password: yourpassword
         port: 22
         command_timeout: 2m
         script:
