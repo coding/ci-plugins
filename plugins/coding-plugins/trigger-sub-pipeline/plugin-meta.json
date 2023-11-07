@@ -1,0 +1,10 @@
+{
+  "name": "trigger-codingci-sub-pipeline",
+  "description": "触发coding CI流水线运行",
+  "mark": "社区",
+  "tags": [ "coding"],
+  "images": "https://hub.docker.com/r/cralazy/coding",
+  "source": "",
+  "bugs": "",
+  "logo": "logo.svg"
+}
