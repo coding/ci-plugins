@@ -1,0 +1,10 @@
+{
+  "name": "tem-deploy-application",
+  "description": "TEM 部署应用",
+  "mark": "社区",
+  "tags": [ "coding"],
+  "images": "https://hub.docker.com/r/cralazy/tem_deploy_application",
+  "source": "",
+  "bugs": "",
+  "logo": "logo.svg"
+}

@@ -16,6 +16,8 @@ master:
         helm_command: upgrade
         chart: ./
         release: my-project
+        api_server: $KUBE_API_SERVER
+        kubernetes_token: $KUBE_TOKEN
 
 ```
 

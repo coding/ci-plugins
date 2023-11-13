@@ -1,6 +1,6 @@
-# trigger-codingci-sub-pipeline
+# trigger-cci-subpipeline
 
-触发coding CI流水线运行
+触发Coding-CI流水线运行
 
 ## 在 Coding-CI 上使用
 
@@ -11,12 +11,24 @@ master:
     - stages:
       - name: trigger sub pipeline
         imports: https://xxx/envs.yml
-        image: cralazy/coding:v2
+        image: cralazy/trigger_codingci_subpipeline:latest
         settings:
           job_id: 2726281
           reftype: "branch"
           revision: "master"
           envs: "env=env"
+```
+
+[envs.yml文件示例](https://x123456789x.coding.net/public/oci-demo-public/oci-qci-trigger-subpipeline-demo-envs/git/files/master/envs.yaml)
+
+```yml
+PROJECT_TOKEN: xxxxxx
+CCI_CURRENT_WEB_PROTOCOL: https
+CCI_CURRENT_DOMAIN: coding.net
+CCI_CURRENT_TEAM: your_domain
+PROJECT_ID: "1111111"
+PROJECT_NAME: plugins
+CCI_JOB_NAME: trigger sub pipeline
 ```
 
 ## 参数
@@ -28,5 +40,3 @@ master:
 * `revision`：分支名/版本号
 
 * `envs`：流水线环境变量
-
-
