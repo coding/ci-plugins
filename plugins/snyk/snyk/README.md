@@ -10,12 +10,12 @@ master:
   - stages:
     - name: scan
       image: drone-plugins/drone-snyk
-      privileged: true
+      # https://xxx/secret.yaml中存放变量snyk token: $SNYKTOKEN
+      imports: https://xxx/secret.yaml
       settings:
           dockerfile: link to dockerfile in repo
           image: image name
-          snyk:
-            from_secret: snyk
+          snyk: $SNYKTOKEN
           fail_on_issues: false
 ```
 

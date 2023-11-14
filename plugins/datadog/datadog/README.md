@@ -10,9 +10,10 @@ master:
   - stages:
     - name: count-pipeline
       image: masci/drone-datadog
+      # https://xxx/secret.yaml中存放变量DATADOG_API_KEY
+      imports: https://xxx/secret.yaml
       settings:
-        api_key:
-          from_secret: datadog_api_key
+        api_key: $DATADOGAPIKEY
         metrics:
           - type: "count"
             name: "masci.pipelines.count"

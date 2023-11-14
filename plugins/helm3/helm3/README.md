@@ -10,14 +10,14 @@ master:
   - stages:
     - name: deploy_production
       image: pelotech/drone-helm3
+      # https://xxx/secret.yaml中存放变量KUBE_API_SERVER和KUBE_TOKEN
+      imports: https://xxx/secret.yaml
       settings:
         helm_command: upgrade
         chart: ./
         release: my-project
-        api_server:
-          from_secret: prod_api_server
-        kubernetes_token:
-          from_secret: prod_kubernetes_token
+        api_server: $KUBE_API_SERVER
+        kubernetes_token: $KUBE_TOKEN
 
 ```
 
