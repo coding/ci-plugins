@@ -5,7 +5,7 @@ Helm3 插件
 ## 在 Coding-CI 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: deploy_production

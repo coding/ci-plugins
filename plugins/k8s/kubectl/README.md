@@ -7,7 +7,7 @@ Kubectl 同样可以管理腾讯云 tke 集群。
 ## 在 Coding-CI 上使用
 
 ```yml
-master:
+main:
   push:
     - stages:
       - name: 使用 kubectl 操作腾讯 TKE 更新指定pod的镜像版本

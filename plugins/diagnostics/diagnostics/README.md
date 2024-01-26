@@ -13,7 +13,7 @@
 - dig
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: run plugins/drone-diagnostics plugin

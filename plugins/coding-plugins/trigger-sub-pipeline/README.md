@@ -6,7 +6,7 @@
 
 ```yml
 
-master:
+main:
   push:
     - stages:
       - name: trigger sub pipeline
@@ -15,7 +15,7 @@ master:
         settings:
           job_id: 2726281
           reftype: "branch"
-          revision: "master"
+          revision: "main"
           envs: "env=env"
 ```
 

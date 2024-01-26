@@ -6,7 +6,7 @@ TEM 部署应用
 
 ```yml
 
-master:
+main:
   push:
     - stages:
       - name: tem-deploy-application

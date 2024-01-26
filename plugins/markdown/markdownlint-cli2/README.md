@@ -19,7 +19,7 @@ docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) \
 ## 在 Coding-CI 上使用
 
 ```yaml
-master:
+main:
   merge_request:
   - stages:
     - name: do markdownlint
@@ -31,7 +31,7 @@ master:
 排除指定目录
 
 ```yaml
-master:
+main:
   merge_request:
   - stages:
     - name: do markdownlint

@@ -25,7 +25,7 @@ docker run --rm -t -v $(pwd):$(pwd) -w $(pwd) overtrue/phplint .
 ## 在 Coding-CI 中使用
 
 ```yaml
-master:
+main:
   merge_request:
   - stages:
     - name: git diff phplint
