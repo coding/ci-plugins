@@ -2,7 +2,7 @@
 
 推送 Docker manifest 多系统架构镜像文件的插件。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

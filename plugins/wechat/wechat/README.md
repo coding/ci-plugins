@@ -2,7 +2,7 @@
 
 微信发消息插件。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:
@@ -43,4 +43,4 @@ master:
 
 更多用法参考：[lizheming/drone-wechat](https://github.com/lizheming/drone-wechat)。
 
-注意：该插件由提供的 message 模板变量，在 Coding-CI 不可用。
+注意：该插件由提供的 message 模板变量，在 云原生构建 不可用。

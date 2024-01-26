@@ -2,7 +2,7 @@
 
 通过 Clair 扫描 docker 镜像插件。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

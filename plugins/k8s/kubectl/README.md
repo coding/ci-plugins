@@ -4,7 +4,7 @@ Kubectl 是 Kubernetes 命令行接口。通过 Kubectl 命令可以方便的管
 
 Kubectl 同样可以管理腾讯云 tke 集群。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

@@ -8,7 +8,7 @@
 docker run --rm -t -v $(pwd):$(pwd) -w $(pwd) drillster/drone-rsync .
 ```
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

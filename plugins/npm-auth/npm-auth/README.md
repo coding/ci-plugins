@@ -2,7 +2,7 @@
 
 通过在本地生成 .npmrc 文件验证公有和私有 NPM 仓库。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

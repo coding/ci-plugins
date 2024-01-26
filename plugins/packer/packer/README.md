@@ -2,7 +2,7 @@
 
 使用 Packer 自动化构建机器镜像。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

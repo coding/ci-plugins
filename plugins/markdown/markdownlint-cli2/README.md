@@ -16,7 +16,7 @@ docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) \
   davidanson/markdownlint-cli2 "**/*.md" "#node_modules"
 ```
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yaml
 master:

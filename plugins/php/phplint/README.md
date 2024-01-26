@@ -1,7 +1,7 @@
 # phplint
 
 `phplint` 是一个可以通过一次运行几个 lint 进程来加速 PHP 文件检查的代码检查工具，
-本项目主要提供了 phplint 的 Docker 镜像，主要目标是在 Coding-CI 中对 PHP 代码进行检查。
+本项目主要提供了 phplint 的 Docker 镜像，主要目标是在 云原生构建 中对 PHP 代码进行检查。
 
 ## 使用方法
 
@@ -22,7 +22,7 @@ exclude:
 docker run --rm -t -v $(pwd):$(pwd) -w $(pwd) overtrue/phplint .
 ```
 
-## 在 Coding-CI 中使用
+## 在 云原生构建 中使用
 
 ```yaml
 master:

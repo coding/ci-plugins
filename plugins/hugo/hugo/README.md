@@ -2,7 +2,7 @@
 
 通过 Hugo 自动创建静态 web 页面的插件。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

@@ -2,7 +2,7 @@
 
 执行 Terraform `plan` 和 `apply`。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 master:

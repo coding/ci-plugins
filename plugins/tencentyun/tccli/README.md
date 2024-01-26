@@ -9,7 +9,7 @@ docker run --rm -it tencentcom/tencentcloud-cli --version
 docker run --rm -it tencentcom/tencentcloud-cli help
 ```
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yaml
 master:

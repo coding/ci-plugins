@@ -1,8 +1,8 @@
 # trigger-cci-subpipeline
 
-触发Coding-CI流水线运行
+触发云原生构建流水线运行
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
 

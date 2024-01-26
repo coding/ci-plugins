@@ -1,6 +1,6 @@
 {
   "name": "trigger-cci-sub-pipeline",
-  "description": "触发Coding-CI流水线运行",
+  "description": "触发云原生构建流水线运行",
   "mark": "社区",
   "tags": [ "coding"],
   "images": "https://hub.docker.com/r/cralazy/trigger_codingci_subpipeline",
