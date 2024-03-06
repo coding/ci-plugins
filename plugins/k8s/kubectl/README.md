@@ -12,7 +12,7 @@ master:
     - stages:
       - name: 使用 kubectl 操作腾讯 TKE 更新指定pod的镜像版本
       # 可参考导入帮助手册环境变量相关
-        imports: https://xxx/kube-config
+        imports: https://xxx/kube-config.yml
         image: bitnami/kubectl
         commands: |
           echo  "$KUBECF" > ~/.kube/config
