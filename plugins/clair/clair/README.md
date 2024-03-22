@@ -2,10 +2,10 @@
 
 通过 Clair 扫描 docker 镜像插件。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: clair
@@ -44,7 +44,7 @@ master:
 
 * password：Docker Registry密码，用于下载 `scan_image`。
 
-* scan_image：要扫描的 docker 图像。支持 Docker Hub 或私有仓库。
+* scan_image：要扫描的 docker 镜像。支持 Docker Hub 或私有仓库。
 
 * ca_cert：用于验证 https 的 CA 证书。
 

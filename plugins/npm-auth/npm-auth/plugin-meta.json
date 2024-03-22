@@ -5,6 +5,6 @@
   "images": "https://hub.docker.com/r/robertstettner/drone-npm-auth",
   "source": "https://github.com/robertstettner/drone-npm-auth",
   "bugs": "https://github.com/robertstettner/drone-npm-auth/issues",
-  "tags": [],
+  "tags": ["npm"],
   "logo": "logo.svg"
 }

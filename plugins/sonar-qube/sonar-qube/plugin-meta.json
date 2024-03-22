@@ -2,7 +2,7 @@
   "name": "SonarQube",
   "description": "SonarQube扫描插件",
   "mark": "社区",
-  "tags": [],
+  "tags": ["scan", "sonar"],
   "images": "https://hub.docker.com/r/aosapps/drone-sonar-plugin",
   "source": "https://github.com/aosapps/drone-sonar-plugin",
   "bugs": "https://github.com/aosapps/drone-sonar-plugin/issues",

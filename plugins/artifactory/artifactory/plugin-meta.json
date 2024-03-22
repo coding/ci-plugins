@@ -2,7 +2,7 @@
   "name": "Artifactory",
   "description": "发布文件或者制品到制品库插件",
   "mark": "社区",
-  "tags": [ "publish"],
+  "tags": [ "publish", "archive"],
   "images": "https://hub.docker.com/r/lathieriot/drone-artifactory",
   "source": "https://github.com/athieriot/drone-artifactory",
   "bugs": "https://github.com/athieriot/drone-artifactory/issues",

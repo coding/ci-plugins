@@ -2,7 +2,7 @@
   "name": "SFTP Cache",
   "description": "使用rsync将制品缓存到中央服务器",
   "mark": "社区",
-  "tags": [],
+  "tags": ["cache", "sftp", "rsync", "sync"],
   "images": "https://hub.docker.com/r/appleboy/drone-sftp-cache",
   "source": "https://github.com/appleboy/drone-sftp-cache",
   "bugs": "https://github.com/appleboy/drone-sftp-cache/issues",

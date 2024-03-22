@@ -2,7 +2,7 @@
   "name": "wechat",
   "description": "基于微信企业号封装的，微信发消息插件。",
   "mark": "社区",
-  "tags": [ "微信", "wechat","message" ],
+  "tags": ["微信", "wechat", "message", "notify"],
   "images": "https://hub.docker.com/r/lizheming/drone-wechat",
   "source": "https://github.com/lizheming/drone-wechat",
   "bugs": "https://github.com/lizheming/drone-wechat/issues",

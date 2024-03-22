@@ -2,10 +2,10 @@
 
 微信发消息插件。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建I 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: send wecat notifications
@@ -27,7 +27,7 @@ master:
 
 ## 参数含义
 
-- corpid: 企业Id。
+- `corpid`: 企业Id。
 - `corp_secret`: 管理组的凭证密钥。
 - `agent_id`: 企业应用的id，整型。可在应用的设置页面查看。
 - `to_party`: 部门ID列表，多个接收者用‘|’分隔，最多支持100个。

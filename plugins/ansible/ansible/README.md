@@ -14,10 +14,10 @@ docker run --rm \
   plugins/ansible
 ```
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: use ansible
@@ -79,7 +79,7 @@ ssh-keygen -t ed25519 -f ./ssh-key
 即：`plugins/ansible:3`，示例如下
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: use ansible
@@ -95,7 +95,7 @@ master:
 可通过 imports 动态注入凭证，达到隐藏明文凭证的目标
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: use ansible
@@ -108,7 +108,7 @@ master:
 ```
 
 ```yml
-#ssh-key.yml
+# ssh-key.yml
 PRIVATE_KEY: |
   xxxxxx
   xxxxxx

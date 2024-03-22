@@ -2,7 +2,7 @@
   "name": "diagnostics",
   "description": "用来诊断构建中问题的带cli工具的插件",
   "mark": "社区",
-  "tags": [],
+  "tags": ["cli", "tools"],
   "images": "https://hub.docker.com/r/drone-plugins/drone-diagnostics",
   "source": "https://github.com/drone-plugins/drone-diagnostics",
   "bugs": "https://github.com/drone-plugins/drone-diagnostics/issues",

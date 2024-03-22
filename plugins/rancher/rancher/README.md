@@ -2,10 +2,10 @@
 
 在 Rancher 1.x 部署或者更新项目。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: publish

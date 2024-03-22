@@ -9,10 +9,10 @@ docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) tencentcom/tencentyun-coscmd --ve
 docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) tencentcom/tencentyun-coscmd -h
 ```
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yaml
-master:
+main:
   push:
   - stages:
     - name: run with tencentyun-coscmd

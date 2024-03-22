@@ -2,16 +2,16 @@
 
 将 yaml 转换为 json 格式。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: yaml2json
       image: simplealpine/yaml2json
-      args:
-          data.yaml
+      settints:
+         args: data.yaml
 
 ```
 

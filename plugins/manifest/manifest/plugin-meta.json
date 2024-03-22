@@ -2,7 +2,7 @@
   "name": "Manifest",
   "description": "推送Docker manifest多架构镜像文件的插件",
   "mark": "社区",
-  "tags": [],
+  "tags": ["manifest", "docker", "publish", "arch"],
   "images": "https://hub.docker.com/r/drone-plugins/drone-manifest",
   "source": "https://github.com/drone-plugins/drone-manifest",
   "bugs": "https://github.com/drone-plugins/drone-manifest/issues",

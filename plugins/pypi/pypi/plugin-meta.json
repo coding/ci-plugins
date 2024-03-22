@@ -2,7 +2,7 @@
   "name": "PyPI",
   "description": "发布python包",
   "mark": "社区",
-  "tags": [],
+  "tags": ["python", "publish"],
   "images": "https://hub.docker.com/r/drone-plugins/drone-pypi",
   "source": "https://github.com/drone-plugins/drone-pypi",
   "bugs": "https://github.com/drone-plugins/drone-pypi/issues",

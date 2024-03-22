@@ -2,7 +2,7 @@
   "name": "hugo",
   "description": "通过Hugo自动创建静态web页面的插件",
   "mark": "社区",
-  "tags": [],
+  "tags": ["hugo", "static", "website"],
   "images": "https://hub.docker.com/r/drone-plugins/drone-hugo",
   "source": "https://github.com/drone-plugins/drone-hugo",
   "bugs": "https://github.com/drone-plugins/drone-hugo/issues",
