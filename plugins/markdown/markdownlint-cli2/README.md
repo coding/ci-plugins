@@ -5,7 +5,9 @@ linting Markdown files with the markdownlint。
 ## 在 Docker 上使用
 
 ```shell
-docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) davidanson/markdownlint-cli2 **/*.md
+docker run -w /myfolder -v $(pwd):/myfolder  davidanson/markdownlint-cli2 docs/**/*.md
+
+docker run -w /myfolder -v $(pwd):/myfolder  davidanson/markdownlint-cli2 --fix docs/**/*.md
 ```
 
 尝试自动修复检查过程中发现的问题
