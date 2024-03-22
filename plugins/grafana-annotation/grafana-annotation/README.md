@@ -2,10 +2,10 @@
 
 在 Grafana 中创建注解的插件。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: annotate

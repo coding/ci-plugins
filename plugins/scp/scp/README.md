@@ -2,10 +2,10 @@
 
 通过 ssh 复制文件或者代码。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: scp files

@@ -18,9 +18,23 @@ docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) \
   davidanson/markdownlint-cli2 "**/*.md" "#node_modules"
 ```
 
+## 在 云原生构建 上使用
+
+```yaml
+# .cnb.yml
+main:
+  pull_request:
+  - stages:
+    - name: do markdownlint
+      image: davidanson/markdownlint-cli2
+      commands: 
+      - markdownlint-cli2 **/*.md 
+```
+
 ## 在 Coding-CI 上使用
 
 ```yaml
+# .coding-ci.yml
 master:
   merge_request:
   - stages:
@@ -30,14 +44,12 @@ master:
       - markdownlint-cli2 **/*.md 
 ```
 
-排除指定目录
+## 排除指定目录
 
 ```yaml
-master:
-  merge_request:
-  - stages:
-    - name: do markdownlint
-      image: davidanson/markdownlint-cli2
-      commands: 
-      - markdownlint-cli2 "**/*.md" "#node_modules"
+stages:
+- name: do markdownlint
+  image: davidanson/markdownlint-cli2
+  commands: 
+  - markdownlint-cli2 "**/*.md" "#node_modules"
 ```

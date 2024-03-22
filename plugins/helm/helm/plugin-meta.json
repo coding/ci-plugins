@@ -2,7 +2,7 @@
   "name": "helm",
   "description": "Helm插件",
   "mark": "社区",
-  "tags": [],
+  "tags": ["helm", "deploy", "kubernetes", "k8s"],
   "images": "https://hub.docker.com/r/ipedrazas/drone-helm",
   "source": "https://github.com/ipedrazas/drone-helm",
   "bugs": "https://github.com/ipedrazas/drone-helm/issues",

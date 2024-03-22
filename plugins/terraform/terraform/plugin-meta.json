@@ -2,7 +2,7 @@
   "name": "Terraform",
   "description": "执行Terraform plan和apply",
   "mark": "社区",
-  "tags": [],
+  "tags": ["terraform"],
   "images": "https://hub.docker.com/r/jmccann/drone-terraform",
   "source": "https://github.com/jmccann/drone-terraform",
   "bugs": "https://github.com/jmccann/drone-terraform/issues",

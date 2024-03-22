@@ -2,7 +2,7 @@
   "name": "Wechat for Work",
   "description": "通过企业微信发送构建状态通知",
   "mark": "社区",
-  "tags": [],
+  "tags": ["wework", "message", "notify"],
   "images": "https://hub.docker.com/r/clem109/drone-wechat",
   "source": "https://github.com/clem109/drone-wechat",
   "bugs": "https://github.com/clem109/drone-wechat/issues",

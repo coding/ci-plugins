@@ -2,7 +2,7 @@
   "name": "Clair",
   "description": "通过Clair扫描docker镜像",
   "mark": "社区",
-  "tags": [ "DOCKER"],
+  "tags": [ "docker", "scan", "clair"],
   "images": "https://hub.docker.com/r/jmccann/drone-clair",
   "source": "https://github.com/jmccann/drone-clair",
   "bugs": "https://github.com/jmccann/drone-clair/issues",

@@ -4,10 +4,10 @@ Kubectl 是 Kubernetes 命令行接口。通过 Kubectl 命令可以方便的管
 
 Kubectl 同样可以管理腾讯云 tke 集群。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
     - stages:
       - name: 使用 kubectl 操作腾讯 TKE 更新指定pod的镜像版本
@@ -62,4 +62,3 @@ KUBECF: |
 - [kubectl文档](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
 - [bitnami/kubectl文档](https://github.com/bitnami/containers/tree/main/bitnami/kubectl)
 - [entrypoint](https://yeasy.gitbook.io/docker_practice/image/dockerfile/entrypoint)
-- [导入环境变量](https://ci.coding.net/docs/env.html#dao-ru-huan-jing-bian-liang)

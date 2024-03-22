@@ -2,7 +2,7 @@
   "name": "Packer",
   "description": "使用Packer自动化构建机器镜像",
   "mark": "社区",
-  "tags": [],
+  "tags": ["docker", "packer"],
   "images": "https://hub.docker.com/r/appleboy/drone-packer",
   "source": "https://github.com/appleboy/drone-packer",
   "bugs": "https://github.com/appleboy/drone-packer/issues",

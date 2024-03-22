@@ -2,10 +2,10 @@
 
 通过 ssh 在远端 host 执行命令。
 
-## 在 Coding-CI 上使用
+## 在 云原生构建 上使用
 
 ```yml
-master:
+main:
   push:
   - stages:
     - name: ssh

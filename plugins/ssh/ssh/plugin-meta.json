@@ -2,7 +2,7 @@
   "name": "SSH",
   "description": "通过ssh在远端host执行命令",
   "mark": "社区",
-  "tags": [],
+  "tags": ["ssh", "remote", "command"],
   "images": "https://hub.docker.com/r/appleboy/drone-ssh",
   "source": "https://github.com/appleboy/drone-ssh",
   "bugs": "https://github.com/appleboy/drone-ssh/issues",

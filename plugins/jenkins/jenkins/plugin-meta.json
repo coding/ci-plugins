@@ -2,7 +2,7 @@
   "name": "jenkins",
   "description": "触发Jenkins Jobs的插件",
   "mark": "社区",
-  "tags": [],
+  "tags": ["jenkins", "ci", "trigger"],
   "images": "https://hub.docker.com/r/appleboy/drone-jenkins",
   "source": "https://github.com/appleboy/drone-jenkins",
   "bugs": "https://github.com/appleboy/drone-jenkins/issues",

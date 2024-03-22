@@ -2,7 +2,7 @@
   "name": "Rancher",
   "description": "在Rancher 1.x部署或者更新项目",
   "mark": "社区",
-  "tags": [],
+  "tags": ["deployment", "rancher"],
   "images": "https://hub.docker.com/r/josmo/drone-rancher",
   "source": "https://github.com/josmo/drone-rancher",
   "bugs": "https://github.com/josmo/drone-rancher/issues",

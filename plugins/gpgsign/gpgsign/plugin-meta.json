@@ -2,7 +2,7 @@
   "name": "gpgsign",
   "description": "通过GunPG给制品加密的插件",
   "mark": "社区",
-  "tags": [],
+  "tags": ["gunpg", "encrypt", "sign", "archive"],
   "images": "https://hub.docker.com/r/drone-plugins/drone-gpgsign",
   "source": "https://github.com/drone-plugins/drone-gpgsign",
   "bugs": "https://github.com/drone-plugins/drone-gpgsign/issues",
