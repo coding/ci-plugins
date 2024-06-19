@@ -17,15 +17,13 @@ main:
         template: foo/bar:v1.0.0-OS-ARCH
         platforms:
           - linux/amd64
-          - linux/arm
           - linux/arm64
 
 ```
 
-通过上面的配置，可以在 DockerHub 给 `foo/bar` 打上 `v1.0.0` 标签，并且 `v1.0.0` 跟 DockerHub 上这三个标签的镜像关联：
+通过上面的配置，可以在 DockerHub 给 `foo/bar` 打上 `v1.0.0` 标签，并且 `v1.0.0` 跟 DockerHub 上这两个标签的镜像关联：
 
 - foo/bar:v1.0.0-linux-amd64
-- foo/bar:v1.0.0-linux-arm
 - foo/bar:v1.0.0-linux-arm64
 
 执行 `docker pull foo/bar:v1.0.0` 时会基于运行环境的系统架构，拉取对应的镜像。
